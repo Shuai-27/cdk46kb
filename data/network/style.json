@@ -1,0 +1,216 @@
+[
+  {
+    "selector": "node",
+    "style": {
+      "background-color": "rgb(137208245)",
+      "font-size": 15,
+      "text-opacity": 1.0,
+      "border-color": "rgb(373737)",
+      "border-opacity": 1.0,
+      "color": "rgb(000)",
+      "height": 35.0,
+      "background-opacity": 1.0,
+      "text-valign": "center",
+      "text-halign": "center",
+      "border-width": 0.0,
+      "width": 35.0,
+      "font-family": "SansSerif.plain",
+      "font-weight": "normal",
+      "content": "data(name)",
+      "shape": "data(name)"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1873]",
+    "style": {
+      "border-width": 1.0
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1873]",
+    "style": {
+      "border-width": 10.0
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1][pmid_count < 1873]",
+    "style": {
+      "border-width": "mapData(pmid_count,118734.010.0)"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1]",
+    "style": {
+      "border-width": 4.0
+    }
+  },
+  {
+    "selector": "node[pmid_count < 1]",
+    "style": {
+      "border-width": 1.0
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1873]",
+    "style": {
+      "background-color": "rgb(68184)"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1873]",
+    "style": {
+      "background-color": "rgb(68286)"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 937][pmid_count < 1873]",
+    "style": {
+      "background-color": "mapData(pmid_count,9371873,rgb(33145140),rgb(68286))"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1][pmid_count < 937]",
+    "style": {
+      "background-color": "mapData(pmid_count,1937,rgb(25123135),rgb(33145140))"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1]",
+    "style": {
+      "background-color": "rgb(25123135)"
+    }
+  },
+  {
+    "selector": "node[pmid_count < 1]",
+    "style": {
+      "background-color": "rgb(25323137)"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1873]",
+    "style": {
+      "color": "rgb(68184)"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1873]",
+    "style": {
+      "color": "rgb(255255255)"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 937][pmid_count < 1873]",
+    "style": {
+      "color": "mapData(pmid_count,9371873,rgb(150150150),rgb(255255255))"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1][pmid_count < 937]",
+    "style": {
+      "color": "mapData(pmid_count,1937,rgb(373737),rgb(150150150))"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1]",
+    "style": {
+      "color": "rgb(373737)"
+    }
+  },
+  {
+    "selector": "node[pmid_count < 1]",
+    "style": {
+      "color": "rgb(25323137)"
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1873]",
+    "style": {
+      "width": 1.0
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1873]",
+    "style": {
+      "width": 130.0
+    }
+  },
+  {
+    "selector": "node[pmid_count > 1][pmid_count < 1873]",
+    "style": {
+      "width": "mapData(pmid_count,1187350.0130.0)"
+    }
+  },
+  {
+    "selector": "node[pmid_count = 1]",
+    "style": {
+      "width": 50.0
+    }
+  },
+  {
+    "selector": "node[pmid_count < 1]",
+    "style": {
+      "width": 1.0
+    }
+  },
+  {
+    "selector": "node:selected",
+    "style": {
+      "background-color": "rgb(2552550)"
+    }
+  },
+  {
+    "selector": "edge",
+    "style": {
+      "target-arrow-color": "rgb(000)",
+      "width": 2.0,
+      "font-family": "Dialog.plain",
+      "font-weight": "normal",
+      "font-size": 10,
+      "content": "",
+      "opacity": 1.0,
+      "text-opacity": 1.0,
+      "source-arrow-color": "rgb(000)",
+      "source-arrow-shape": "none",
+      "color": "rgb(000)",
+      "line-style": "solid",
+      "target-arrow-shape": "none",
+      "line-color": "rgb(132132132)"
+    }
+  },
+  {
+    "selector": "edge[weight > 1335]",
+    "style": {
+      "width": 1.0
+    }
+  },
+  {
+    "selector": "edge[weight = 1335]",
+    "style": {
+      "width": 30.0
+    }
+  },
+  {
+    "selector": "edge[weight > 1][weight < 1335]",
+    "style": {
+      "width": "mapData(weight,113353.030.0)"
+    }
+  },
+  {
+    "selector": "edge[weight = 1]",
+    "style": {
+      "width": 3.0
+    }
+  },
+  {
+    "selector": "edge[weight < 1]",
+    "style": {
+      "width": 1.0
+    }
+  },
+  {
+    "selector": "edge:selected",
+    "style": {
+      "line-color": "rgb(25500)"
+    }
+  }
+]

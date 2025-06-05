@@ -1,0 +1,1040 @@
+Node,Category
+AKT1,Gene
+BRAF,Gene
+CCND1,Gene
+CCNE1,Gene
+CDKN1A,Gene
+CDKN2A,Gene
+CDKN2B,Gene
+E2F1,Gene
+EGFR,Gene
+ERBB2,Gene
+ESR1,Gene
+MDM2,Gene
+MTOR,Gene
+MYC,Gene
+NF1,Gene
+NRAS,Gene
+PIK3CA,Gene
+PTEN,Gene
+RB1,Gene
+TP53,Gene
+"MCF7, T47D",Cell type
+Melanoma cells,Cell type
+Braf(V600E) melanoma cells,Cell type
+Melanoma cell lines,Cell type
+Neuroblasts,Cell type
+intestinal epithelial cells,Cell type
+HEK293T cells,Cell type
+Circulating tumor cells (CTCs),Cell type
+Neuronal cells,Cell type
+Neuroblastoma cells,Cell type
+MSCs,Cell type
+Tumor cells,Cell type
+Glioma cells,Cell type
+HaCaT cells,Cell type
+Mucosal melanoma,Cell type
+Testicular cells,Cell type
+A549 cells,Cell type
+TE-1 cells,Cell type
+Chicken PGCs,Cell type
+Myeloma cells,Cell type
+"MCF-7, MDA-MB-231",Cell type
+Placental explants,Cell type
+HGC-27 cells,Cell type
+Epidermal stem cells,Cell type
+Breast cancer cell lines,Cell type
+"OVCAR-3, Caov-4",Cell type
+Myoblasts,Cell type
+OSCC cells,Cell type
+breast cancer cells,Cell type
+Mesenchymal stem cells,Cell type
+"OVCAR-3, Caov-4 cell lines",Cell type
+Cancer cells,Cell type
+Ovarian cancer cells,Cell type
+"COS cells, osteoprogenitor C3H10T1/2 cells, chondrogenic RCJ3.1C5.18 cells",Cell type
+"COS cells, RCJ3.1C5.18 cells",Cell type
+Mammalian cells,Cell type
+RB pathway,Cell type
+MGC-803 cells,Cell type
+B cells,Cell type
+multiciliated cells,Cell type
+MEFs,Cell type
+PDCs,Cell type
+Proliferating cells,Cell type
+Fibroblasts,Cell type
+"Cyclin D-CDK4,CDK6",Cell type
+Cyclin D1,Cell type
+Leiomyosarcomatous cells,Cell type
+Rhabdomyosarcomatous cells,Cell type
+Astrocytes,Cell type
+MCF-7 cells,Cell type
+Cell lines,Cell type
+CMT cells,Cell type
+Carcinoma cells,Cell type
+Primary human melanocytes,Cell type
+B-cell precursors,Cell type
+Glioma cell lines,Cell type
+T cells,Cell type
+keratinocytes,Cell type
+ECFCs,Cell type
+NIH3T3 fibroblasts,Cell type
+Cervical cancer cell lines,Cell type
+Primary cells,Cell type
+HCC cells,Cell type
+Gallbladder cells,Cell type
+Mouse MEL erythroleukemia cells,Cell type
+Urothelial cells,Cell type
+retinoblastoma,Cell type
+HAOSMCs,Cell type
+Cyclin D-dependent kinases,Cell type
+granulocyte-monocyte precursors,Cell type
+CD34+ progenitors,Cell type
+Beta cells,Cell type
+Autophagy regulators,Cell type
+GBM cells,Cell type
+Glioblastoma cells,Cell type
+Chordoma cells,Cell type
+RB-deficient cells,Cell type
+Luminal A BC cells,Cell type
+MCF7,Cell type
+"Breast cancer cell lines, PDX models",Cell type
+MCF-7 breast cancer cells,Cell type
+hMSCs,Cell type
+Lymphoid cells,Cell type
+stromal cells,Cell type
+"PDX models, PDCs",Cell type
+PDX mouse models,Cell type
+p53(wild-type),Cell type
+MDA-MB-231 cells,Cell type
+PI3K/AKT/mTOR pathway,Cell type
+Primary GBM cell lines,Cell type
+Circulating tumor cells,Cell type
+B-cells,Cell type
+NB cell lines,Cell type
+AML cells,Cell type
+non-IBC cells,Cell type
+HPV(neg) HNSCC cell lines,Cell type
+MCF7 cells,Cell type
+Breast cancer cells,Cell type
+pituitary cells,Cell type
+Endothelial cells,Cell type
+"P114,CF41 cells",Cell type
+Mouse embryo fibroblasts,Cell type
+CD34+ cells,Cell type
+T-ALL cell line,Cell type
+MCF-7,Cell type
+TNBC cell lines,Cell type
+pRb-competent cells,Cell type
+Pituitary gland,Cell type
+IBC cells,Cell type
+Seminal vesicle tumors,Disease
+Breast cancer,Disease
+Gliosarcoma,Disease
+"Gliosarcoma, glioblastoma",Disease
+Glial cell transformation,Disease
+Lung cancer,Disease
+Melanoma,Disease
+Prostate tumor,Disease
+eGBM,Disease
+Malignant melanoma,Disease
+Acral melanocytic nevus,Disease
+Acral melanoma,Disease
+"Primary tumor, Secondary lesions",Disease
+IDH-wildtype glioblastoma,Disease
+Cancer,Disease
+Nasal mixed exocrine-neuroendocrine carcinoma,Disease
+Brain tumors,Disease
+Solid tumors,Disease
+Metastatic melanoma,Disease
+papillary thyroid carcinoma,Disease
+thyroid tumor,Disease
+cancer,Disease
+Glioblastoma,Disease
+Low-grade serous ovarian cancer (LGSC),Disease
+AM,Disease
+HCC,Disease
+Cutaneous melanoma,Disease
+histiocytic sarcoma,Disease
+Acral melanomas,Disease
+Tumors,Disease
+Colorectal cancer,Disease
+"Melanoma, Cancer",Disease
+Melanocytic tumors,Disease
+PMM,Disease
+Mucosal melanomas,Disease
+Carcinomas,Disease
+Tumor recurrence,Disease
+Neuroblastic tumors,Disease
+"Gliomas, Sarcomas, Melanoma, Breast cancer, Colorectal cancer",Disease
+Anaplasia,Disease
+Ganglioneuroma,Disease
+Cervical carcinoma,Disease
+Adenoma,Disease
+Neoplasms,Disease
+"Lymph node metastasis, depth of invasion",Disease
+Adenocarcinomas,Disease
+Esophageal conditions,Disease
+Acral melanoma (AM),Disease
+High-grade astrocytomas,Disease
+Gallbladder cancer,Disease
+"Glioblastoma, Brain metastases",Disease
+MCL,Disease
+Antiandrogen-resistant disease,Disease
+Colorectal cancer (CRC),Disease
+Cervical cancer,Disease
+Immune-refractory cancer,Disease
+Hepatocellular carcinoma (HCC),Disease
+"Breast cancer, cancer",Disease
+Retinoblastoma,Disease
+Glioma,Disease
+OSCC,Disease
+Intestinal neoplasia,Disease
+Intestinal adenomas,Disease
+Intestinal carcinogenesis,Disease
+Varicocele,Disease
+Mammary carcinoma,Disease
+Adenocarcinoma,Disease
+diabetes,Disease
+Head and neck squamous cell carcinoma (HNSCC),Disease
+Tumor,Disease
+Esophageal cancer,Disease
+Malignant astrocytomas,Disease
+GBM,Disease
+Human cancers,Disease
+Prostate cancer,Disease
+Nasopharyngeal carcinoma (NPC),Disease
+Myeloma,Disease
+Mammary gland tumors,Disease
+Ovarian cancer,Disease
+Gastric carcinoma,Disease
+Endocrine therapy-resistant breast cancer,Disease
+Hepatocarcinogenesis,Disease
+Liver tumors,Disease
+Parathyroid tumors,Disease
+Esophageal squamous cell carcinoma,Disease
+Hepatocellular carcinoma,Disease
+Skin tumors,Disease
+"WDLPS,DDLPS",Disease
+ER+ breast cancer,Disease
+Endometrial carcinomas,Disease
+Endometrioid-type endometrial carcinomas,Disease
+NPC,Disease
+Metastatic NPC,Disease
+Oral squamous cell carcinoma,Disease
+Therapy-refractory solid malignancies,Disease
+Synovial sarcoma,Disease
+HPV(U) tumors,Disease
+Mantle cell NHL,Disease
+Gastric cancer,Disease
+Advanced gastric cancer,Disease
+Parathyroid adenomas,Disease
+Multiple myeloma,Disease
+FAP (Familial Adenomatous Polyposis),Disease
+Pancreatic ductal adenocarcinoma,Disease
+Mantle cell lymphoma,Disease
+Canine mammary gland cancer,Disease
+SPA,Disease
+Thin melanoma,Disease
+"ESCC, esophageal dysplasia",Disease
+HNSCC,Disease
+Nonbreast solid tumors,Disease
+Salivary gland tumors,Disease
+HR-positive breast cancer,Disease
+ALM,Disease
+Multiple cancers,Disease
+Nasopharyngeal carcinoma,Disease
+Sarcomas,Disease
+"breast cancer,head and neck cancer,non-small-cell lung cancer,mantle cell lymphomas",Disease
+Advanced sarcomas,Disease
+Skin cancer,Disease
+HUC senescence,Disease
+B cell non-Hodgkin's lymphoma (B-NHL),Disease
+Extramammary Paget's disease (EMPD),Disease
+FPA,Disease
+Oral cancer,Disease
+Soft tissue metastasis,Disease
+Pleural mesothelioma,Disease
+Thick melanoma,Disease
+Glioblastomas,Disease
+"Melanomas,Digestive cancers",Disease
+"ALL, CML, ATL",Disease
+ALL,Disease
+Ovarian tumor,Disease
+Uterine myosarcoma,Disease
+Uterine leiomyosarcoma,Disease
+Hereditary cutaneous melanoma,Disease
+Human tumors,Disease
+Sarcoma,Disease
+"Melanoma, multiple cancers",Disease
+Familial cutaneous malignant melanoma,Disease
+"Melanoma,Neural system tumors",Disease
+Hibernoma-like areas,Disease
+Primary cutaneous melanoma (PCM),Disease
+Amelanotic melanoma,Disease
+Familial malignant melanoma,Disease
+Familial melanoma,Disease
+"Familial melanoma, multiple melanoma",Disease
+Low-grade gliomas,Disease
+Astrocytomas,Disease
+"High-grade astrocytomas, glioma",Disease
+"Astrocytomas, glioma",Disease
+Uveal melanoma,Disease
+Leukemia,Disease
+Pediatric ALL,Disease
+Head and neck cancer,Disease
+"Astrocytic tumor, Oligodendroglial tumor",Disease
+Metastases to pelvis and spine,Disease
+Primary tumor,Disease
+Cancer predisposition syndrome,Disease
+"Malignant mesothelioma, Other cancers",Disease
+Malignant mesothelioma,Disease
+"Glioblastoma, low-grade astrocytoma, anaplastic astrocytoma",Disease
+Lymphoid tumors,Disease
+Mucosal melanoma,Disease
+Oligodendroglioma,Disease
+Anaplastic oligodendroglioma,Disease
+WHO grade II oligodendroglioma,Disease
+Barrett's adenocarcinomas,Disease
+"Melanoma, tumors",Disease
+Hereditary melanoma,Disease
+Osteosarcoma,Disease
+Melanocytic neoplasms,Disease
+Lower grade astrocytomas,Disease
+Dermatofibrosarcoma protuberans,Disease
+Fibrosarcomatous DFSP,Disease
+Ependymoma,Disease
+FGFR-altered IGs,Disease
+Cholangiocarcinoma,Disease
+Serous ovarian tumor,Disease
+"Melanoma, GBM",Disease
+Non-small cell lung cancer (NSCLC),Disease
+PDAC,Disease
+Lung adenocarcinoma,Disease
+PM,Disease
+Ewing's sarcoma,Disease
+Malignancies,Disease
+BRAF inhibitor-resistant tumor,Disease
+tumor,Disease
+BCC,Disease
+MHPC,Disease
+Familial human melanoma,Disease
+"Atherosclerosis, Type 2 diabetes mellitus (T2DM)",Disease
+"T2DM, T2DM-CAD",Disease
+"Familial melanoma, Sporadic melanoma",Disease
+Non-small cell lung cancer,Disease
+Cutaneous malignant melanoma,Disease
+Esophageal carcinoma,Disease
+"Retinoblastoma, Osteosarcoma",Disease
+"gliomas, cancers",Disease
+MPM,Disease
+"Diffuse cerebral glioma, pleomorphic xanthoastrocytoma",Disease
+Diffuse astrocytic glioma,Disease
+Pleomorphic xanthoastrocytoma,Disease
+"Pleomorphic xanthoastrocytoma, diffuse astrocytic glioma, oligodendroglial glioma",Disease
+HPV-positive carcinoma,Disease
+MPNST,Disease
+Bladder tumors,Disease
+Human tumor cell lines,Disease
+Pituitary adenomas,Disease
+Tumours,Disease
+Pituitary tumours,Disease
+"Leukemia, many cancers",Disease
+Meningeal hemangiopericytomas,Disease
+Chordoma,Disease
+T2DM-CAD,Disease
+"Atherosclerosis, T2DM",Disease
+T2DM,Disease
+Squamous cell carcinoma,Disease
+T-cell acute lymphoblastic leukemia,Disease
+"Human cancers, malignant melanoma",Disease
+ESOS,Disease
+"Pancreatic cancer, melanoma",Disease
+"ALL T, ATL, CML",Disease
+"Lung cancer, Colon cancer",Disease
+"Neurofibromas, malignant peripheral nerve sheath tumors",Disease
+"Skin cancer, SCCs, BCCs",Disease
+Carcinogenesis,Disease
+Moyamoya disease (MMD),Disease
+"Familial melanoma, Tumours",Disease
+Ovarian tumors,Disease
+"Anaplastic astrocytomas, GBMs",Disease
+ESCC,Disease
+NSCLC,Disease
+Non-small cell lung carcinoma,Disease
+Head and neck squamous cell carcinoma,Disease
+Leptomeningeal metastases of lung adenocarcinoma,Disease
+Diffuse high-grade glioma (DHG),Disease
+"Tumor, normal skin tissue",Disease
+Plasmacytoma,Disease
+Various tumor types,Disease
+"Melanoma, Pancreatic cancer",Disease
+"Liposarcoma, lipoma, liponecrosis",Disease
+Liposarcoma,Disease
+Basal cell carcinoma,Disease
+Prostate carcinoma,Disease
+Oligodendrogliomas,Disease
+Head and neck tumors,Disease
+"Liposarcoma, Lipoma",Disease
+"sPNET, GBM",Disease
+Hematopoietic malignancies,Disease
+BTC,Disease
+MHPCs,Disease
+"Primary lesion, Metastatic lesion",Disease
+Multiple cancer types,Disease
+Acquired resistance,Disease
+"GBM, GS",Disease
+Glioblastoma multiforme (GBM),Disease
+Penile squamous cell carcinoma,Disease
+PMA,Disease
+Metaplastic breast carcinoma,Disease
+Hepatoid adenocarcinoma of the stomach (HAS),Disease
+Disease progression,Disease
+NAC-resistant tumors,Disease
+NPC (nasopharyngeal carcinoma),Disease
+Squamous cell lung cancer,Disease
+EGFR-amplified tumours,Disease
+Amplified tumors,Disease
+Lung adenocarcinoma (LUAD),Disease
+Advanced non-small cell lung cancer (NSCLC),Disease
+Brain cancer,Disease
+Pituitary neuroendocrine tumors (PitNET),Disease
+Epithelial cancers,Disease
+PeSCCA,Disease
+Desmoplastic small round cell tumor (DSRCT),Disease
+Lung metastases (LM),Disease
+Metastatic breast cancer (mBC),Disease
+METex 14 alteration,Disease
+Lung metastases,Disease
+Metastatic breast cancer,Disease
+HER2-positive breast cancer,Disease
+"ER-positive, HER2-negative breast cancer",Disease
+Triple negative breast cancer,Disease
+Endocrine resistance,Disease
+"Hormone receptor-positive, HER2-negative breast cancer",Disease
+Advanced breast cancer,Disease
+metastatic breast cancer,Disease
+Disease,Disease
+Metastatic extramammary Paget's disease,Disease
+Advanced-stage breast cancer,Disease
+HER2-low tumors,Disease
+Advanced/metastatic breast cancer,Disease
+HR+/HER2+ metastatic breast cancer,Disease
+Metastatic HR+/HER2- breast cancer,Disease
+Early breast cancer,Disease
+Metastatic breast cancer (MBC),Disease
+HER2-low breast cancer,Disease
+HER2+ advanced breast cancer,Disease
+HER2-positive advanced breast cancer,Disease
+HER2-positive/HR-positive advanced breast cancer,Disease
+Cancers,Disease
+Triple-negative breast cancer,Disease
+Stage III and IV tumors,Disease
+Estrogen receptor-positive metastatic breast cancer,Disease
+ER-positive breast cancer,Disease
+ER+ xenografts,Disease
+ER+/RB-deficient xenografts,Disease
+"Advanced estrogen receptor-positive, HER2-negative breast cancer",Disease
+Peritoneal metastasis,Disease
+"Breast cancer, gastric cancer with bone metastasis",Disease
+ER伪+ breast cancer,Disease
+breast cancer,Disease
+tumors,Disease
+HR+/HER2- metastatic breast cancer,Disease
+Metastatic ER+ breast cancer,Disease
+HR+ metastatic breast cancer,Disease
+luminal androgen receptor (LAR) breast cancer,Disease
+Metastatic disease,Disease
+Endocrine therapy-resistant ESR1(+) breast cancer,Disease
+"ER-positive, HER2-negative metastatic breast cancer",Disease
+"ER-positive, HER2-positive breast cancer",Disease
+ERα-positive breast cancer,Disease
+Resistant tumors,Disease
+Advanced cancers,Disease
+Estrogen receptor-positive breast tumors,Disease
+Estrogen receptor-positive breast cancer,Disease
+Estrogen-accelerating PDX,Disease
+Breast tumors,Disease
+"Well-differentiated liposarcoma, Dedifferentiated liposarcoma",Disease
+Liposarcomas,Disease
+"Adipocytic tumors, atypical lipomatous tumors/well-differentiated liposarcomas (ALT/WDL)",Disease
+"ALT/WDL, DDL",Disease
+Dedifferentiated liposarcoma,Disease
+Lipomatous tumor,Disease
+DDLPS,Disease
+"ALT/WDL, DDLPS",Disease
+Low-grade central osteosarcoma,Disease
+"Osteosarcoma, Liposarcoma",Disease
+ALT,Disease
+MPLPS,Disease
+DLOS,Disease
+Neoplastic tissue,Disease
+"Atypical lipomatous tumor, Well-differentiated liposarcoma",Disease
+"WDLPS, DDLPS",Disease
+Rhabdomyosarcoma,Disease
+Salivary gland tumor,Disease
+"Lung adenocarcinoma, liposarcoma",Disease
+Fatty tumors,Disease
+Well-differentiated and dedifferentiated liposarcomas,Disease
+Malignant gliomas,Disease
+Alveolar subtype,Disease
+"Well-differentiated liposarcomas, Dedifferentiated liposarcomas",Disease
+Malignant fibrous histiocytoma,Disease
+Neuroblastoma,Disease
+Sclerosing liposarcoma,Disease
+Pleural tumor,Disease
+"Spindle cell lipoma, pleomorphic lipoma",Disease
+Lipoma,Disease
+ARMS,Disease
+ERMS,Disease
+RP sarcoma,Disease
+Soft tissue sarcoma,Disease
+Sarcomatoid CRCC,Disease
+Uterine Adenosarcomas,Disease
+"Liposarcoma (WDLPS, DDLPS)",Disease
+Liposarcomatous differentiation,Disease
+GBM (glioblastoma),Disease
+Parosteal osteosarcoma,Disease
+Intimal sarcoma,Disease
+Atypical spindle cell/pleomorphic lipomatous tumor,Disease
+IS,Disease
+Undifferentiated sarcoma,Disease
+ALT/WDL,Disease
+Benign lipomatous lesions,Disease
+"UHGPS,DDL",Disease
+Malignant lipomatous tumors,Disease
+UHGPS,Disease
+"Lipoma, ALT/WDL",Disease
+"Retroperitoneal pleomorphic MFH, dedifferentiated liposarcoma",Disease
+Inflammatory MFH,Disease
+POS,Disease
+"Atypical lipomatous tumor, well-differentiated liposarcoma, dedifferentiated liposarcoma",Disease
+"Soft tissue sarcomas, leiomyosarcomas (LMS), alveolar rhabdomyosarcomas (ARMS), embryonal rhabdomyosarcomas (ERMS)",Disease
+UPSC sarcomas,Disease
+Primary lesion,Disease
+Soft tissue sarcomas,Disease
+Mesenchymal tumors,Disease
+APLT,Disease
+Dedifferentiated osteosarcoma,Disease
+"WDLS, DDLS",Disease
+Well-differentiated spindle cell liposarcoma,Disease
+"WDL,DDL",Disease
+"UHGPS, DDLS",Disease
+Inflammatory myofibroblastic tumor,Disease
+p-SCs,Disease
+Lipomatous neoplasms,Disease
+Atypical lipomatous tumor,Disease
+"Follicle center lymphomas, extranodal marginal zone lymphomas, mantle cell lymphomas",Disease
+PCNSL,Disease
+Anaplastic oligodendrogliomas,Disease
+Glioblastoma (GB),Disease
+Triple negative cancer,Disease
+Luminal A cancer,Disease
+Bone tumor,Disease
+"ALT, parosteal osteosarcoma",Disease
+"DDLPS,PLPS",Disease
+Ossifying fibroma (OF),Disease
+Juvenile ossifying fibroma (JOF),Disease
+Malignant peripheral nerve sheath tumors,Disease
+"HR+, HER2- breast cancer",Disease
+Resistance in hormone-receptor-positive breast cancer,Disease
+HR+/HER2- breast cancer,Disease
+Advanced ER+ breast cancer,Disease
+Endocrine-resistant breast cancer,Disease
+PEComa,Disease
+Myeloproliferative neoplasms (MPN),Disease
+Neuroendocrine tumors (NETs),Disease
+Hormone-resistant tumors,Disease
+Non-clear cell RCC,Disease
+ICC,Disease
+Recurrent glioblastoma,Disease
+Luminal ABC,Disease
+"Dedifferentiated liposarcoma (DDL), leiomyosarcoma (LMS)",Disease
+Recurrent tumors,Disease
+Hormone receptor-positive (HR+) breast cancer,Disease
+ER(+)/FGFR1(+) metastatic breast cancer,Disease
+ER+ metastatic breast cancer,Disease
+HR+ ABC,Disease
+"Oral cancer, OSCC",Disease
+Gynecologic cancers,Disease
+"Breast cancer,RAS-mutant cancers",Disease
+Metastatic colorectal cancer,Disease
+Lymphoproliferative disorder (LPD),Disease
+Pediatric medulloblastoma (MB),Disease
+Adult tumors,Disease
+Polycystic kidney disease,Disease
+Medulloblastoma (Group3/4),Disease
+Burkitt lymphoma,Disease
+Triple-negative breast cancer (TNBC),Disease
+BRCA(mut)/TNBC,Disease
+Malignant peripheral nerve sheath tumors (MPNSTs),Disease
+CA-Para,Disease
+CA-Pheo,Disease
+NF1-associated PNF,Disease
+Liposarcoma (LPS),Disease
+Acute Myeloid Leukemia (AML),Disease
+NRAS-mutant melanoma,Disease
+EAs,Disease
+Non-invasive follicular thyroid neoplasm,Disease
+CA,Disease
+AML,Disease
+PIK3CA-mutated advanced breast cancer,Disease
+Metastasis,Disease
+Diabetes,Disease
+Lung squamous cell carcinoma (LUSC),Disease
+HER2-negative/HR-positive breast cancer,Disease
+non-IBC,Disease
+HPV(neg) HNSCC,Disease
+NRAS melanoma,Disease
+PFS,Disease
+High-grade astrocytic tumors,Disease
+MBC,Disease
+Mesothelioma,Disease
+Multiple myeloma (MM),Disease
+Metastases,Disease
+Glioblastoma (GBM),Disease
+HHT,Disease
+Rb-deficient tumors,Disease
+ER(+) breast cancer,Disease
+"Estrogen receptor-positive, HER2-positive breast cancer",Disease
+CRPC,Disease
+Diet-induced obesity (DIO),Disease
+TNBC,Disease
+Atypical meningiomas,Disease
+Liver tumor,Disease
+Canine mammary carcinoma,Disease
+osteosarcoma,Disease
+Squamous Cell Carcinomas,Disease
+Spindle cell lipoma,Disease
+Childhood retinoblastoma,Disease
+Bilateral retinoblastoma,Disease
+"Breast cancer, melanoma, leukemia, lymphoma",Disease
+RB1-deficient tumors,Disease
+HR+ breast cancer,Disease
+cancers,Disease
+PV,Disease
+SCLC,Disease
+Endocrine therapy resistance,Disease
+Thymic lymphomas,Disease
+B-cell neoplasms,Disease
+DPedHGG,Disease
+Medulloblastoma,Disease
+"GBM, sPNET",Disease
+Colon Cancer,Disease
+IBC,Disease
+Senescence,Disease
+Li-Fraumeni syndrome,Disease
+Marginal zone lymphoma/Splenic B-cell lymphoma,Disease
+High-grade glioma,Disease
+Palbociclib,Drugs
+SBX,Drugs
+PL,Drugs
+Notopterol,Drugs
+Capivasertib,Drugs
+"Capivasertib, anti-HER2 agents, endocrine treatment",Drugs
+"Cobimetinib, ALK inhibitors",Drugs
+"MEK inhibitors, CDK4/6 inhibitors",Drugs
+"CDK4/6 inhibitors, BRAF/MEK-targeting agents",Drugs
+"CDK4/6 inhibitors, BRAF inhibitors, MEK inhibitors",Drugs
+"BRAF inhibitors, MEK inhibitors, CDK4/6 inhibitors",Drugs
+CDK4/6 inhibitors,Drugs
+Vemurafenib,Drugs
+GLS1i,Drugs
+anti-PD-1,Drugs
+vemurafenib,Drugs
+Tyrosine kinase inhibitors,Drugs
+BRAF inhibitors,Drugs
+"Trametinib, BKM120, LEE011",Drugs
+"Palbociclib,BRAF inhibitors,MEK inhibitors",Drugs
+"Encorafenib, Cetuximab, CDK4/6 inhibitors",Drugs
+MEK inhibitors,Drugs
+"Trametinib, Dabrafenib",Drugs
+"Pembrolizumab, Durvalumab, Atezolizumab, BRAF inhibitors, MEK inhibitors",Drugs
+"mTOR inhibitors, BRAF inhibitors, MEK inhibitors",Drugs
+"BRAF inhibitors, MEK inhibitors",Drugs
+NMBA,Drugs
+"Abemaciclib, Ribociclib, Lenvatinib",Drugs
+"letrozole, everolimus, palbociclib",Drugs
+GRN163L,Drugs
+"Palbociclib,Abemaciclib",Drugs
+ZEN-3694,Drugs
+LEE011,Drugs
+Alcohol,Drugs
+Mannoprotein,Drugs
+PI3K/mTOR inhibitors,Drugs
+Quercetin,Drugs
+Bortezomib (BTZ),Drugs
+SB431542,Drugs
+PD-0332991,Drugs
+3-carene,Drugs
+Erufosine,Drugs
+LPS,Drugs
+Luteoloside,Drugs
+"CTL, ERA",Drugs
+BZD,Drugs
+"berberine, evodiamine",Drugs
+MCA,Drugs
+EGCG,Drugs
+HLCA,Drugs
+Resveratrol,Drugs
+"Vitamin K2, Vitamin K3",Drugs
+GAA,Drugs
+Artemisinin,Drugs
+Smurf2 siRNA,Drugs
+SAHA,Drugs
+Rosiglitazone,Drugs
+EESB,Drugs
+AST,Drugs
+9za,Drugs
+"cis-nerolidol,trans-nerolidol",Drugs
+Butein,Drugs
+Salidroside,Drugs
+IB-MECA,Drugs
+PFE,Drugs
+Metformin,Drugs
+Abemaciclib,Drugs
+"ERBB2 inhibitors, EGFR inhibitors",Drugs
+BBR,Drugs
+AB680,Drugs
+PS1,Drugs
+SRJ23,Drugs
+Geldanamycin,Drugs
+"Flavopiridol,Doxorubicin",Drugs
+"Ceritinib, Ribociclib",Drugs
+TMOC,Drugs
+Rapamycin,Drugs
+elacestrant,Drugs
+"Abemaciclib, lenvatinib",Drugs
+Propionate,Drugs
+Talazoparib,Drugs
+Endosulfan,Drugs
+KT,Drugs
+Enzalutamide,Drugs
+PARP inhibitors,Drugs
+Imatinib,Drugs
+"palbociclib, trametinib",Drugs
+"Palbociclib, Letrozole",Drugs
+"MDM2/4 inhibitors, CDK4/6 inhibitors, immunotherapy",Drugs
+palbociclib,Drugs
+Combined drugs,Drugs
+Doxorubicin,Drugs
+ATRA,Drugs
+"Osimertinib, Palbociclib",Drugs
+"Osimertinib, palbociclib",Drugs
+"palbociclib,celecoxib",Drugs
+"CDK4/6 inhibitors, immunotherapy",Drugs
+"Palbociclib, Cetuximab",Drugs
+5-aza-2'-deoxycytidine,Drugs
+PD0332991,Drugs
+BRAF/MEK inhibitors,Drugs
+DBF,Drugs
+"Erk1/2 inhibitors,CDK4/6 inhibitors",Drugs
+Osimertinib,Drugs
+EGFR and HER2 inhibitors,Drugs
+"EGFR blockers, CDK4/6 inhibitors",Drugs
+"Cetuximab, Afatinib, Palbociclib",Drugs
+"palbociclib, erlotinib",Drugs
+EGFR-TKIs,Drugs
+"Necitumumab, afatinib, erlotinib",Drugs
+"MEK inhibitors, EGFR inhibitors",Drugs
+"CDK4/6 inhibitors, EGFR inhibitors",Drugs
+EGFR-TKI,Drugs
+"Anti-EGFR therapy,CDK4/6 inhibitors",Drugs
+"Temozolomide, CDK4/6 inhibitors, EGFR inhibitors",Drugs
+PD 0332991,Drugs
+EGFR inhibitors,Drugs
+"Palbociclib,Erlotinib",Drugs
+B7-H3,Drugs
+"EGFR inhibitors, HER2 inhibitors",Drugs
+"Afatinib,Palbociclib",Drugs
+multi-kinase inhibitors,Drugs
+Neoadjuvant therapy,Drugs
+"Palbociclib, Fulvestrant",Drugs
+"Fulvestrant, Capivasertib",Drugs
+Trastuzumab,Drugs
+"Abemaciclib, fulvestrant, palbociclib, ribociclib",Drugs
+"HER2-directed therapy, Chemotherapy",Drugs
+CDK4/6 inhibitor,Drugs
+"ribociclib,palbociclib,abemaciclib",Drugs
+"Neratinib,Trastuzumab deruxtecan,Palbociclib",Drugs
+"CDK4/6 inhibitors, Endocrine therapy",Drugs
+"CDK4/6 inhibitors, Aromatase inhibitors",Drugs
+Trastuzumab deruxtecan,Drugs
+"Camizestrant, Fulvestrant",Drugs
+"CDK4/6 inhibitors, anti-HER2",Drugs
+"Dalpiciclib, pyrotinib",Drugs
+"Tucatinib, letrozole, palbociclib",Drugs
+Ribociclib,Drugs
+Aromatase inhibitors,Drugs
+"trastuzumab, lapatinib, pertuzumab, ado-trastuzumab emtansine",Drugs
+Ibrutinib,Drugs
+"Tucatinib, Palbociclib, Fulvestrant",Drugs
+"Palbociclib, Abemaciclib, Ribociclib",Drugs
+"Pertuzumab,T-DM1,Tyrosine kinase inhibitors",Drugs
+Tamoxifen,Drugs
+Letrozole,Drugs
+"Fulvestrant, BKM120",Drugs
+"Pemrametostat, Fulvestrant",Drugs
+Fulvestrant,Drugs
+"Fulvestrant, Camizestrant",Drugs
+"LH-RH agonist, aromatase inhibitor",Drugs
+Elacestrant,Drugs
+Endocrine therapy,Drugs
+Hormone therapy,Drugs
+ER伪 inhibitors,Drugs
+Anti-estrogens,Drugs
+"Anti-estrogens, PI3K/AKT/mTOR inhibitors, CDK4/6 inhibitors",Drugs
+"elacestrant, fulvestrant",Drugs
+ATP-competitive inhibitors,Drugs
+GPX4 inhibitors,Drugs
+Selective ER degraders,Drugs
+"Fulvestrant, aromatase inhibitors",Drugs
+"Fulvestrant, anastrozole",Drugs
+"SERD, SSH-CDK4/6 inhibitors",Drugs
+Antiestrogens,Drugs
+fulvestrant,Drugs
+"tamoxifen,aromatase inhibitors",Drugs
+"H3B-6545, fulvestrant",Drugs
+H3B-6545,Drugs
+Camizestrant,Drugs
+Inhibitors of CDK4 and MDM2,Drugs
+"CDK4 inhibitors, MDM2 inhibitors, cediranib, eribulin, crizotinib",Drugs
+Bortezomib,Drugs
+Anti-MDM2 therapies,Drugs
+MDM2 inhibitors,Drugs
+"CDK4/6 inhibitors,ET",Drugs
+MTOR,Drugs
+"Palbociclib, Everolimus",Drugs
+"CDK4/6 inhibitors, mTOR inhibitors",Drugs
+"Alpelisib, MLN0128, palbociclib",Drugs
+Alpelisib,Drugs
+nab-sirolimus,Drugs
+"PI3K inhibitors, mTOR inhibitors, CDK4/6 inhibitors, Epigenetic modulators",Drugs
+"deucravacitinib, CDK4/6 inhibitors, mTOR inhibitors",Drugs
+"Everolimus, sunitinib",Drugs
+"CDK4/6 inhibitors, mTOR inhibitors, PI3K inhibitors",Drugs
+"VEGF inhibitors, mTOR inhibitors",Drugs
+MLN0128,Drugs
+"Palbociclib, MLN0128",Drugs
+mTOR inhibitor,Drugs
+Everolimus,Drugs
+RMC-6272,Drugs
+"PI3K inhibitors, mTOR inhibitors",Drugs
+E6201,Drugs
+"CDK4/6 inhibitors, PI3K/mTOR inhibitors",Drugs
+FMD,Drugs
+PIK3CA/mTOR inhibitors,Drugs
+"Ribociclib, everolimus",Drugs
+mTOR inhibitors,Drugs
+"Everolimus,Palbociclib,Ribociclib,Abemaciclib,Alpelisib",Drugs
+"PI3K/mTOR inhibitors, fulvestrant",Drugs
+"CDK4/6 inhibitors, PI3K/AKT/mTOR inhibitors",Drugs
+"Aromatase inhibitors, mTOR inhibitors, CDK4/6 inhibitors",Drugs
+"PI3Ki, anti-HER2, chemotherapy, CDK4/6 inhibitors, mTOR inhibitors",Drugs
+Gedatolisib,Drugs
+"mTOR inhibitors, CDK4/6 inhibitors",Drugs
+"CDK4/6 inhibitors,mTOR inhibitors",Drugs
+Abiraterone,Drugs
+"Olaparib, Palbociclib",Drugs
+Doxazosin,Drugs
+Olaparib,Drugs
+TGF-β,Drugs
+"Palbociclib, fulvestrant",Drugs
+Cobimetinib,Drugs
+"MEK1/2 inhibitors, CDK4/6 inhibitors",Drugs
+"Binimetinib, Ribociclib",Drugs
+Binimetinib,Drugs
+"CDK4/6 inhibitors, MEK inhibitors",Drugs
+"PI3K inhibitors, FGFR inhibitors, CDK4/6 inhibitors",Drugs
+PI3K inhibitors,Drugs
+"PI3K inhibitors, CDK4/6 inhibitors",Drugs
+"CDK4/6 inhibitors, FLT3 inhibitors, pan-PI3K inhibitors",Drugs
+"Piqray, Fulvestrant",Drugs
+"Capivasertib, fulvestrant",Drugs
+"KRAS inhibitors, PI3K inhibitors, HSP90 inhibitors, CDK4/6 inhibitors, SHP2 inhibitors",Drugs
+"Alpelisib, Ribociclib",Drugs
+"Ribociclib, Alpelisib",Drugs
+"Palbociclib, 7rh",Drugs
+"PI3K inhibitors, HSP90 inhibitors",Drugs
+"PIK3CA inhibitors, AR inhibitors, BCL2 inhibitors",Drugs
+alpelisib,Drugs
+TQB3616,Drugs
+abemaciclib,Drugs
+"MPT0L145, abemaciclib",Drugs
+HMBA,Drugs
+CDK inhibitors,Drugs
+G1T38,Drugs
+Dalpiciclib,Drugs
+"PD-0332991, LEE011",Drugs
+rapamycin,Drugs
+"palbociclib, doxorubicin, AZD1775",Drugs
+"ARV-825, Fulvestrant, Palbociclib",Drugs
+"Palbociclib, Abemaciclib",Drugs
+PF-7006,Drugs
+"RP-6306, Gemcitabine",Drugs
+Piceatannol,Drugs
+doxorubicin,Drugs
+"RP-6306, gemcitabine",Drugs
+TP53-modulating drugs,Drugs
+PI3K,Pathway
+"EGFR, HER2, AKT",Pathway
+IL-17 signaling,Pathway
+"p16(INK4A)-CDK4-RB, RAS-RAF-MEK-ERK, PI3K-AKT",Pathway
+RAS-BRAF,Pathway
+RAS-RAF-MEK-ERK,Pathway
+"BRAF/MEK, ALK, CDK4/6",Pathway
+Mitogen-activated protein kinase pathway,Pathway
+RAS-MAPK,Pathway
+MAPK,Pathway
+BRAF pathway,Pathway
+p16-cdk4-cyclin D1-pRb,Pathway
+CDK4/CDK6-cyclin D1-Rb-p16/ink4a pathway,Pathway
+CDK4/CDK6-cyclin D1 pathway,Pathway
+Ubiquitin-proteasome system,Pathway
+Cell-cycle pathway,Pathway
+"PI3K-AKT, CCND1-CDK4/6",Pathway
+pRb,Pathway
+Cell cycle,Pathway
+Cell-cycle markers,Pathway
+PI3K/AKT,Pathway
+AKT/mTOR,Pathway
+G1-phase pathway,Pathway
+G1-S transition,Pathway
+"MEK, p38, ERK1/2",Pathway
+AP-1,Pathway
+G1 phase,Pathway
+p38 MAPK,Pathway
+PI3K/AKT pathway,Pathway
+ERK1/2,Pathway
+"STAT3,Erk,p38",Pathway
+CDK4-cyclin D1 pathway,Pathway
+Cell cycle progression,Pathway
+G1-S regulatory pathway,Pathway
+RAS/MAPK,Pathway
+G1/S transition,Pathway
+Cyclin D/CDK4,Pathway
+Cyclin D1/CDK4,Pathway
+Cyclin pathway,Pathway
+ER-cyclin D1-CDK4/6-RB pathway,Pathway
+Cyclin signaling,Pathway
+CDK4/6-cyclin D1,Pathway
+"Wnt, Hippo",Pathway
+CDKN2A-CCND-CDK4/6-Rb,Pathway
+Akt/GSK-3/Cdc2 pathway,Pathway
+mTORC1/2,Pathway
+"PKC,MAPK",Pathway
+G1 arrest,Pathway
+"PI3K/AKT/mTOR, Cell-cycle machinery",Pathway
+Raf-Mek-Erk pathway,Pathway
+Cell cycle pathway,Pathway
+FAMMM,Pathway
+"RB1,TP53",Pathway
+p16INK4/CDK4/RB,Pathway
+Cell cycle control,Pathway
+"Rb-CDK4,p53",Pathway
+Rb pathway,Pathway
+"Rb-CDK4, p53 pathways",Pathway
+p16INK4a/cyclin D/CDK4/6/RB pathway,Pathway
+MEK,Pathway
+Cyclin D-CDK4/6-Rb-INK4,Pathway
+CDK4/6/RB pathway,Pathway
+p53 pathway,Pathway
+"CDK4-pRb, p53",Pathway
+pRB,Pathway
+P16(INK4A)-CDK4/6-RB,Pathway
+Pigmentation pathway,Pathway
+G1 cyclin-dependent kinase,Pathway
+TGFB,Pathway
+COX-2/Wnt,Pathway
+"p53, p16",Pathway
+Rb/p16INK4a/cyclin D-dependent kinase,Pathway
+Rb and p53/MDM2/p14ARF,Pathway
+RAR signaling,Pathway
+Cyclin D-CDK4/6,Pathway
+"MAPK, Cell cycle",Pathway
+TGF beta,Pathway
+TGF-beta,Pathway
+"CDK4/6,Erk1/2",Pathway
+"mTORC1/2,CDK4/6",Pathway
+EGFR,Pathway
+EGFR-TKI pathway,Pathway
+"MAPK, AKT, STAT3, Src, Abl",Pathway
+"p16-CDK4/6-RB,AREG/EGFR",Pathway
+"CDK4/6,IGF1R/FGFR/EGFR",Pathway
+"EGFR, HER2",Pathway
+EGFR signaling,Pathway
+PI3K/AKT/mTOR,Pathway
+"Estrogen signaling, HER2 signaling",Pathway
+PIK3CA/mTOR,Pathway
+MAP kinase pathway,Pathway
+ATR:CHK1,Pathway
+"mTORC1/2,CDK4/6,ER",Pathway
+Growth factor receptor signaling,Pathway
+Retinoblastoma pathway,Pathway
+12q13-15 region,Pathway
+TP53 pathway,Pathway
+"pRB/CDK4/RB1/P16(ink4),TP53/MDM2/P14(arf),PI3K/Akt-PTEN",Pathway
+mTOR,Pathway
+MTOR,Pathway
+"PI3K/AKT/mTOR, CDK4/6",Pathway
+CDK4/6,Pathway
+PI3K/Akt/mTOR,Pathway
+"PI3K/Akt/mTOR,CDK4/6/RB",Pathway
+PI3K/mTOR,Pathway
+PI3K/AKT/mTOR signaling pathway,Pathway
+"MAPK, mTORC1/p70S6K, src/FAK",Pathway
+mTOR/p70-S6k,Pathway
+"PI3K/AKT, PTEN, mTOR",Pathway
+PI3K-mTOR,Pathway
+mTORC1,Pathway
+"Metabolic pathway, ROS signaling pathway, HIF1a, mTOR signaling",Pathway
+"PI3K-AKT, mTOR, CDK4/6",Pathway
+"MTORC1, E2F, MYC",Pathway
+"PI3K/mTOR, CDK4/6",Pathway
+"PI3K, AKT, mTOR",Pathway
+AKT/mTOR axis,Pathway
+AKT/mTOR pathway,Pathway
+"PI3K-mTOR pathway,RAS/RAF/MAPK pathway",Pathway
+Amplifications,Pathway
+HR,Pathway
+JNK/CDK4-dependent pSmad3L,Pathway
+Endocrine signaling,Pathway
+Beta-catenin-Tcf,Pathway
+Wnt signaling,Pathway
+"MAPK, PI3K, CDK4/6",Pathway
+Senescence escape,Pathway
+PI3K pathway,Pathway
+PIK3CA-AKT,Pathway
+"PI3K, AKT",Pathway
+PI3K-AKT,Pathway
+"PI3K, Cell-cycle, Apoptosis",Pathway
+"MAPK, PI3K, S6K1",Pathway
+"Notch, PI3K/AKT",Pathway
+"MAPK, AKT",Pathway
+mTOR pathway,Pathway
+S6K1,Pathway
+DNA repair pathway,Pathway
+PTEN-related pathways,Pathway
+PI3K-PTEN-AKT-FoxO3a,Pathway
+Rb1,Pathway
+G1-S checkpoint,Pathway
+CDK4/6-RB,Pathway
+c-Myc,Pathway
+NF-魏B,Pathway
+"NF-魏B, AKT",Pathway
+Cyclin D-CDK4/6-INK4-Rb,Pathway
+G1 control pathway,Pathway
+pRb pathway,Pathway
+CDK4/6-RB pathway,Pathway
+Cyclin D1-CDK4/6-retinoblastoma pathway,Pathway
+Cyclin D-CDK4/6-Rb pathway,Pathway
+CDK-Rb-E2F,Pathway
+"MAPK, Akt",Pathway
+CDK4/6-Rb-E2F pathway,Pathway
+Cyclin D-CDK4/6-Rb,Pathway
+CKI-CDK-Rb pathway,Pathway
+"p53 control, growth signaling, cell cycle control",Pathway
+"Hedgehog, Akt, p53",Pathway
+NOTCH,Pathway
+DNA damage response,Pathway
+ARF-p53,Pathway

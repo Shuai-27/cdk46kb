@@ -1,0 +1,6 @@
+Gene Symbol,Cell type,Disease,Drugs,Pathway,四级标签
+CDK4,A549,Lung Cancer,Palbociclib,Cell Cycle,1.1
+CDK6,MCF7,Breast Cancer,Abemaciclib,Cell Cycle,1.2
+RB1,HeLa,Cervical Cancer,Retinoblastoma,Cell Cycle,1.3
+CCND1,MCF7,Breast Cancer,Palbociclib,Cell Cycle,1.4
+TP53,A549,Lung Cancer,AZD1775,Apoptosis,2.1

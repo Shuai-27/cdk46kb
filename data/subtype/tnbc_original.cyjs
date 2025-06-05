@@ -1,0 +1,1108 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.3",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "Sheet1",
+    "name" : "Sheet1",
+    "SUID" : 155,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "232",
+        "shared_name" : "CTNNB1",
+        "name" : "CTNNB1",
+        "Frequency" : 1,
+        "SUID" : 232,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -344.11445409429325,
+        "y" : -151.9503722084363
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "230",
+        "shared_name" : "MYC",
+        "name" : "MYC",
+        "Frequency" : 1,
+        "SUID" : 230,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -274.11445409429325,
+        "y" : -151.9503722084363
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "228",
+        "shared_name" : "AR",
+        "name" : "AR",
+        "Frequency" : 4,
+        "SUID" : 228,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -54.92090570719648,
+        "y" : 231.68008680204795
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "226",
+        "shared_name" : "BRCA2",
+        "name" : "BRCA2",
+        "Frequency" : 4,
+        "SUID" : 226,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -271.69509925558356,
+        "y" : 231.68008680204795
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "224",
+        "shared_name" : "BRCA1",
+        "name" : "BRCA1",
+        "Frequency" : 4,
+        "SUID" : 224,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -127.82413151364806,
+        "y" : 231.68008680204795
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "222",
+        "shared_name" : "ERBB2",
+        "name" : "ERBB2",
+        "Frequency" : 2,
+        "SUID" : 222,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -199.7596153846158,
+        "y" : 231.68008680204798
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "220",
+        "shared_name" : "PGR",
+        "name" : "PGR",
+        "Frequency" : 2,
+        "SUID" : 220,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -199.75961538461576,
+        "y" : 139.7446029310802
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "218",
+        "shared_name" : "ESR1",
+        "name" : "ESR1",
+        "Frequency" : 2,
+        "SUID" : 218,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -343.6305831265513,
+        "y" : 231.68008680204804
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "216",
+        "shared_name" : "FOXM1",
+        "name" : "FOXM1",
+        "Frequency" : 1,
+        "SUID" : 216,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 36.12389318738502,
+        "y" : 243.09820737733676
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "214",
+        "shared_name" : "CREBBP",
+        "name" : "CREBBP",
+        "Frequency" : 3,
+        "SUID" : 214,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 36.12389318738502,
+        "y" : 152.13046544185292
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "212",
+        "shared_name" : "ACAA1",
+        "name" : "ACAA1",
+        "Frequency" : 7,
+        "SUID" : 212,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -234.29051868013713,
+        "y" : -299.93298358782
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "210",
+        "shared_name" : "MIR3613",
+        "name" : "MIR3613",
+        "Frequency" : 1,
+        "SUID" : 210,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 230.15615125190112,
+        "y" : 241.16272350636902
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "208",
+        "shared_name" : "SMAD2",
+        "name" : "SMAD2",
+        "Frequency" : 1,
+        "SUID" : 208,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 265.1561512519011,
+        "y" : 151.16272350636902
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "206",
+        "shared_name" : "EZH2",
+        "name" : "EZH2",
+        "Frequency" : 1,
+        "SUID" : 206,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 300.1561512519011,
+        "y" : 241.16272350636902
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "204",
+        "shared_name" : "SAMD5",
+        "name" : "SAMD5",
+        "Frequency" : 2,
+        "SUID" : 204,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 133.64002221964307,
+        "y" : 242.6143364095949
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "202",
+        "shared_name" : "PLK1",
+        "name" : "PLK1",
+        "Frequency" : 2,
+        "SUID" : 202,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 133.64002221964307,
+        "y" : 151.64659447411097
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "200",
+        "shared_name" : "RB",
+        "name" : "RB",
+        "Frequency" : 2,
+        "SUID" : 200,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -203.6305831265513,
+        "y" : -151.9503722084363
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "198",
+        "shared_name" : "RB1",
+        "name" : "RB1",
+        "Frequency" : 3,
+        "SUID" : 198,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -132.17897022332548,
+        "y" : -151.9503722084364
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "196",
+        "shared_name" : "FOXC1",
+        "name" : "FOXC1",
+        "Frequency" : 2,
+        "SUID" : 196,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 41.28877171215839,
+        "y" : -151.9503722084363
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "194",
+        "shared_name" : "HER2",
+        "name" : "HER2",
+        "Frequency" : 1,
+        "SUID" : 194,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 83.7887717121584,
+        "y" : -46.46650124069441
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "192",
+        "shared_name" : "PR",
+        "name" : "PR",
+        "Frequency" : 1,
+        "SUID" : 192,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -182.39491873834555,
+        "y" : -49.06606044205938
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "190",
+        "shared_name" : "ER",
+        "name" : "ER",
+        "Frequency" : 1,
+        "SUID" : 190,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 153.78877171215845,
+        "y" : -46.46650124069441
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "188",
+        "shared_name" : "BRCA",
+        "name" : "BRCA",
+        "Frequency" : 4,
+        "SUID" : 188,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 200.2403846153843,
+        "y" : -151.95037220843636
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "186",
+        "shared_name" : "FSIP1",
+        "name" : "FSIP1",
+        "Frequency" : 1,
+        "SUID" : 186,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 271.6919975186099,
+        "y" : -151.95037220843633
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "184",
+        "shared_name" : "CDK6",
+        "name" : "CDK6",
+        "Frequency" : 32,
+        "SUID" : 184,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -45.44509925558356,
+        "y" : -229.7521391797386
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "182",
+        "shared_name" : "CDK4",
+        "name" : "CDK4",
+        "Frequency" : 32,
+        "SUID" : 182,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -44.10395511036364,
+        "y" : -52.965399244106834
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "336",
+        "source" : "232",
+        "target" : "230",
+        "shared_name" : "CTNNB1 (interacts with) MYC",
+        "shared_interaction" : "interacts with",
+        "name" : "CTNNB1 (interacts with) MYC",
+        "interaction" : "interacts with",
+        "SUID" : 336,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "334",
+        "source" : "228",
+        "target" : "226",
+        "shared_name" : "AR (interacts with) BRCA2",
+        "shared_interaction" : "interacts with",
+        "name" : "AR (interacts with) BRCA2",
+        "interaction" : "interacts with",
+        "SUID" : 334,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "332",
+        "source" : "228",
+        "target" : "224",
+        "shared_name" : "AR (interacts with) BRCA1",
+        "shared_interaction" : "interacts with",
+        "name" : "AR (interacts with) BRCA1",
+        "interaction" : "interacts with",
+        "SUID" : 332,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "330",
+        "source" : "228",
+        "target" : "222",
+        "shared_name" : "AR (interacts with) ERBB2",
+        "shared_interaction" : "interacts with",
+        "name" : "AR (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 330,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "328",
+        "source" : "228",
+        "target" : "220",
+        "shared_name" : "AR (interacts with) PGR",
+        "shared_interaction" : "interacts with",
+        "name" : "AR (interacts with) PGR",
+        "interaction" : "interacts with",
+        "SUID" : 328,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "326",
+        "source" : "228",
+        "target" : "218",
+        "shared_name" : "AR (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "AR (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 326,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "324",
+        "source" : "226",
+        "target" : "222",
+        "shared_name" : "BRCA2 (interacts with) ERBB2",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA2 (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 324,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "322",
+        "source" : "226",
+        "target" : "220",
+        "shared_name" : "BRCA2 (interacts with) PGR",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA2 (interacts with) PGR",
+        "interaction" : "interacts with",
+        "SUID" : 322,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "320",
+        "source" : "226",
+        "target" : "218",
+        "shared_name" : "BRCA2 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA2 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 320,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "318",
+        "source" : "224",
+        "target" : "226",
+        "shared_name" : "BRCA1 (interacts with) BRCA2",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA1 (interacts with) BRCA2",
+        "interaction" : "interacts with",
+        "SUID" : 318,
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "316",
+        "source" : "224",
+        "target" : "222",
+        "shared_name" : "BRCA1 (interacts with) ERBB2",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA1 (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 316,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "314",
+        "source" : "224",
+        "target" : "220",
+        "shared_name" : "BRCA1 (interacts with) PGR",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA1 (interacts with) PGR",
+        "interaction" : "interacts with",
+        "SUID" : 314,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "312",
+        "source" : "224",
+        "target" : "218",
+        "shared_name" : "BRCA1 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA1 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 312,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "310",
+        "source" : "222",
+        "target" : "220",
+        "shared_name" : "ERBB2 (interacts with) PGR",
+        "shared_interaction" : "interacts with",
+        "name" : "ERBB2 (interacts with) PGR",
+        "interaction" : "interacts with",
+        "SUID" : 310,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "308",
+        "source" : "222",
+        "target" : "218",
+        "shared_name" : "ERBB2 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "ERBB2 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 308,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "306",
+        "source" : "218",
+        "target" : "220",
+        "shared_name" : "ESR1 (interacts with) PGR",
+        "shared_interaction" : "interacts with",
+        "name" : "ESR1 (interacts with) PGR",
+        "interaction" : "interacts with",
+        "SUID" : 306,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "304",
+        "source" : "214",
+        "target" : "216",
+        "shared_name" : "CREBBP (interacts with) FOXM1",
+        "shared_interaction" : "interacts with",
+        "name" : "CREBBP (interacts with) FOXM1",
+        "interaction" : "interacts with",
+        "SUID" : 304,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "302",
+        "source" : "212",
+        "target" : "198",
+        "shared_name" : "ACAA1 (interacts with) RB1",
+        "shared_interaction" : "interacts with",
+        "name" : "ACAA1 (interacts with) RB1",
+        "interaction" : "interacts with",
+        "SUID" : 302,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "300",
+        "source" : "212",
+        "target" : "184",
+        "shared_name" : "ACAA1 (interacts with) CDK6",
+        "shared_interaction" : "interacts with",
+        "name" : "ACAA1 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 300,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "298",
+        "source" : "212",
+        "target" : "182",
+        "shared_name" : "ACAA1 (interacts with) CDK4",
+        "shared_interaction" : "interacts with",
+        "name" : "ACAA1 (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 298,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "296",
+        "source" : "210",
+        "target" : "208",
+        "shared_name" : "MIR3613 (interacts with) SMAD2",
+        "shared_interaction" : "interacts with",
+        "name" : "MIR3613 (interacts with) SMAD2",
+        "interaction" : "interacts with",
+        "SUID" : 296,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "294",
+        "source" : "206",
+        "target" : "210",
+        "shared_name" : "EZH2 (interacts with) MIR3613",
+        "shared_interaction" : "interacts with",
+        "name" : "EZH2 (interacts with) MIR3613",
+        "interaction" : "interacts with",
+        "SUID" : 294,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "292",
+        "source" : "206",
+        "target" : "208",
+        "shared_name" : "EZH2 (interacts with) SMAD2",
+        "shared_interaction" : "interacts with",
+        "name" : "EZH2 (interacts with) SMAD2",
+        "interaction" : "interacts with",
+        "SUID" : 292,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "290",
+        "source" : "202",
+        "target" : "204",
+        "shared_name" : "PLK1 (interacts with) SAMD5",
+        "shared_interaction" : "interacts with",
+        "name" : "PLK1 (interacts with) SAMD5",
+        "interaction" : "interacts with",
+        "SUID" : 290,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "288",
+        "source" : "200",
+        "target" : "198",
+        "shared_name" : "RB (interacts with) RB1",
+        "shared_interaction" : "interacts with",
+        "name" : "RB (interacts with) RB1",
+        "interaction" : "interacts with",
+        "SUID" : 288,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "286",
+        "source" : "196",
+        "target" : "194",
+        "shared_name" : "FOXC1 (interacts with) HER2",
+        "shared_interaction" : "interacts with",
+        "name" : "FOXC1 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 286,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "284",
+        "source" : "196",
+        "target" : "192",
+        "shared_name" : "FOXC1 (interacts with) PR",
+        "shared_interaction" : "interacts with",
+        "name" : "FOXC1 (interacts with) PR",
+        "interaction" : "interacts with",
+        "SUID" : 284,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "282",
+        "source" : "194",
+        "target" : "192",
+        "shared_name" : "HER2 (interacts with) PR",
+        "shared_interaction" : "interacts with",
+        "name" : "HER2 (interacts with) PR",
+        "interaction" : "interacts with",
+        "SUID" : 282,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "280",
+        "source" : "190",
+        "target" : "196",
+        "shared_name" : "ER (interacts with) FOXC1",
+        "shared_interaction" : "interacts with",
+        "name" : "ER (interacts with) FOXC1",
+        "interaction" : "interacts with",
+        "SUID" : 280,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "278",
+        "source" : "190",
+        "target" : "194",
+        "shared_name" : "ER (interacts with) HER2",
+        "shared_interaction" : "interacts with",
+        "name" : "ER (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 278,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "276",
+        "source" : "190",
+        "target" : "192",
+        "shared_name" : "ER (interacts with) PR",
+        "shared_interaction" : "interacts with",
+        "name" : "ER (interacts with) PR",
+        "interaction" : "interacts with",
+        "SUID" : 276,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "274",
+        "source" : "188",
+        "target" : "184",
+        "shared_name" : "BRCA (interacts with) CDK6",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 274,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "272",
+        "source" : "188",
+        "target" : "182",
+        "shared_name" : "BRCA (interacts with) CDK4",
+        "shared_interaction" : "interacts with",
+        "name" : "BRCA (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 272,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "270",
+        "source" : "184",
+        "target" : "232",
+        "shared_name" : "CDK6 (interacts with) CTNNB1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) CTNNB1",
+        "interaction" : "interacts with",
+        "SUID" : 270,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "268",
+        "source" : "184",
+        "target" : "230",
+        "shared_name" : "CDK6 (interacts with) MYC",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) MYC",
+        "interaction" : "interacts with",
+        "SUID" : 268,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "266",
+        "source" : "184",
+        "target" : "200",
+        "shared_name" : "CDK6 (interacts with) RB",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) RB",
+        "interaction" : "interacts with",
+        "SUID" : 266,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "264",
+        "source" : "184",
+        "target" : "198",
+        "shared_name" : "CDK6 (interacts with) RB1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) RB1",
+        "interaction" : "interacts with",
+        "SUID" : 264,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "262",
+        "source" : "184",
+        "target" : "196",
+        "shared_name" : "CDK6 (interacts with) FOXC1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) FOXC1",
+        "interaction" : "interacts with",
+        "SUID" : 262,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "260",
+        "source" : "184",
+        "target" : "194",
+        "shared_name" : "CDK6 (interacts with) HER2",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 260,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "258",
+        "source" : "184",
+        "target" : "192",
+        "shared_name" : "CDK6 (interacts with) PR",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) PR",
+        "interaction" : "interacts with",
+        "SUID" : 258,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "256",
+        "source" : "184",
+        "target" : "190",
+        "shared_name" : "CDK6 (interacts with) ER",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) ER",
+        "interaction" : "interacts with",
+        "SUID" : 256,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "254",
+        "source" : "184",
+        "target" : "186",
+        "shared_name" : "CDK6 (interacts with) FSIP1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) FSIP1",
+        "interaction" : "interacts with",
+        "SUID" : 254,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "252",
+        "source" : "182",
+        "target" : "232",
+        "shared_name" : "CDK4 (interacts with) CTNNB1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) CTNNB1",
+        "interaction" : "interacts with",
+        "SUID" : 252,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "250",
+        "source" : "182",
+        "target" : "230",
+        "shared_name" : "CDK4 (interacts with) MYC",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) MYC",
+        "interaction" : "interacts with",
+        "SUID" : 250,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "248",
+        "source" : "182",
+        "target" : "200",
+        "shared_name" : "CDK4 (interacts with) RB",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) RB",
+        "interaction" : "interacts with",
+        "SUID" : 248,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "246",
+        "source" : "182",
+        "target" : "198",
+        "shared_name" : "CDK4 (interacts with) RB1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) RB1",
+        "interaction" : "interacts with",
+        "SUID" : 246,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "244",
+        "source" : "182",
+        "target" : "196",
+        "shared_name" : "CDK4 (interacts with) FOXC1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) FOXC1",
+        "interaction" : "interacts with",
+        "SUID" : 244,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "242",
+        "source" : "182",
+        "target" : "194",
+        "shared_name" : "CDK4 (interacts with) HER2",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 242,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "240",
+        "source" : "182",
+        "target" : "192",
+        "shared_name" : "CDK4 (interacts with) PR",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) PR",
+        "interaction" : "interacts with",
+        "SUID" : 240,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "238",
+        "source" : "182",
+        "target" : "190",
+        "shared_name" : "CDK4 (interacts with) ER",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) ER",
+        "interaction" : "interacts with",
+        "SUID" : 238,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "236",
+        "source" : "182",
+        "target" : "186",
+        "shared_name" : "CDK4 (interacts with) FSIP1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) FSIP1",
+        "interaction" : "interacts with",
+        "SUID" : 236,
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "234",
+        "source" : "182",
+        "target" : "184",
+        "shared_name" : "CDK4 (interacts with) CDK6",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 234,
+        "Weight" : 23,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

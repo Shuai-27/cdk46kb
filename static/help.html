@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>使用说明 – CDK4/6 Knowledge-Base</title>
+</head>
+<body>
+  <h1>CDK4/6 Knowledge-Base 网站使用说明</h1>
+
+  <h2>1. 网站功能概览</h2>
+  <ul>
+    <li><strong>Statistics 模块</strong>：展示 CDK4/6 知识库原始表格，可下载整库 CSV。</li>
+    <li><strong>Global Network 模块</strong>：全局基因共现网络可视化，支持任意列模糊搜索，构建并渲染子网。</li>
+    <li><strong>Centrality 模块</strong>：展示中心性指标（degree、betweenness、closeness 等）前 N 名基因的柱状图与 Venn 图。</li>
+    <li><strong>Organic Framework 模块</strong>：可视化有机框架子网（直接从 organic_full.cyjs 中提取 elements）。</li>
+    <li><strong>Subtype Networks 模块</strong>：展示乳腺癌不同亚型（Luminal B1、TNBC）对应的子网节点与边表，并可视化。</li>
+  </ul>
+
+  <h2>2. 示例数据 (Example Data)</h2>
+  <p>点击下面链接可下载示例 CSV，用于快速体验各功能：</p>
+  <ul>
+    <li><a href="/example_small.csv">example_small.csv</a> （示例数据含 5 行，字段：Gene Symbol 等）</li>
+  </ul>
+
+  <h2>3. API 接口示例</h2>
+  <ul>
+    <li><code>GET /api/stats</code> → 返回整个 CDK4/6 知识库（JSON）</li>
+    <li><code>GET /api/centrality/degree?top=20</code> → 返回 degree 指标前 20 名基因（JSON）</li>
+    <li><code>GET /api/organic/elements</code> → 返回从 organic_full.cyjs 中提取的 <code>elements</code> 列表（JSON）</li>
+    <li><code>GET /api/subtype/luminal_original/elements</code> → 返回指定 subtype 的 <code>elements</code></li>
+  </ul>
+
+  <h2>4. 数据下载</h2>
+  <p>在 Statistics 模块中点击“下载整库 CSV”可获取完整数据。<br/>
+  如果需要，也可直接访问下面的ZIP链接（完整数据包）：</p>
+  <ul>
+    <li><a href="/cdk4_6_kb_full.zip">cdk4_6_kb_full.zip</a> （完整数据包，约 XX MB）</li>
+  </ul>
+
+  <h2>5. 持续在线保障</h2>
+  <p>本网站部署在 Render（PaaS 平台）的免费级别，结合 Uptime Robot 保活，保证自 2025 年 6 月起至少 3 年持续在线，所有访客永久免费、无需登录。</p>
+
+  <h2>6. 联系方式</h2>
+  <p>如有问题，请发送邮件至 <a href="mailto:youremail@yourinstitution.edu">youremail@yourinstitution.edu</a></p>
+</body>
+</html>

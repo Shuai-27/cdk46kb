@@ -1,0 +1,1084 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.3",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "Merged Network",
+    "name" : "Merged Network",
+    "SUID" : 418,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "485",
+        "shared_name" : "SNCA",
+        "name" : "SNCA",
+        "SUID" : 485,
+        "Matching_Attribute" : [ "SNCA" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -82.15351611805787,
+        "y" : 186.61340433052817
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "483",
+        "shared_name" : "ING1",
+        "name" : "ING1",
+        "SUID" : 483,
+        "Matching_Attribute" : [ "ING1" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 203.67395468008914,
+        "y" : -84.35652149339184
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "481",
+        "shared_name" : "KRAS",
+        "name" : "KRAS",
+        "Frequency" : 1,
+        "SUID" : 481,
+        "Matching_Attribute" : [ "KRAS" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -300.55539657389204,
+        "y" : 157.17434031449983
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "479",
+        "shared_name" : "ERBB2",
+        "name" : "ERBB2",
+        "Frequency" : 8,
+        "SUID" : 479,
+        "Matching_Attribute" : [ "ERBB2" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -205.50305660152355,
+        "y" : -239.51762547984157
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "477",
+        "shared_name" : "FASN",
+        "name" : "FASN",
+        "SUID" : 477,
+        "Matching_Attribute" : [ "FASN" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 166.75625181864,
+        "y" : -213.6376382209624
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "475",
+        "shared_name" : "ESR1",
+        "name" : "ESR1",
+        "Frequency" : 4,
+        "SUID" : 475,
+        "Matching_Attribute" : [ "ESR1" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -216.93841140372484,
+        "y" : 7.615887323465152
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "473",
+        "shared_name" : "AKT1",
+        "name" : "AKT1",
+        "SUID" : 473,
+        "Matching_Attribute" : [ "AKT1" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 4.704038391231244,
+        "y" : -182.39524621794803
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "471",
+        "shared_name" : "MTOR",
+        "name" : "MTOR",
+        "Frequency" : 2,
+        "SUID" : 471,
+        "Matching_Attribute" : [ "MTOR" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 85.75598727667013,
+        "y" : -76.42696293464556
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "469",
+        "shared_name" : "CAMKK2",
+        "name" : "CAMKK2",
+        "SUID" : 469,
+        "Matching_Attribute" : [ "CAMKK2" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 187.23951480434087,
+        "y" : 48.89486933489903
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "467",
+        "shared_name" : "ESPL1",
+        "name" : "ESPL1",
+        "SUID" : 467,
+        "Matching_Attribute" : [ "ESPL1" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -74.84576072652034,
+        "y" : 74.99895744797834
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "465",
+        "shared_name" : "CCND1",
+        "name" : "CCND1",
+        "Frequency" : 1,
+        "SUID" : 465,
+        "Matching_Attribute" : [ "CCND1" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -329.4350222104454,
+        "y" : -216.30356475444336
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "463",
+        "shared_name" : "AHR",
+        "name" : "AHR",
+        "SUID" : 463,
+        "Matching_Attribute" : [ "AHR" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 207.2130752222607,
+        "y" : 181.2805810144376
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "461",
+        "shared_name" : "CCL2",
+        "name" : "CCL2",
+        "SUID" : 461,
+        "Matching_Attribute" : [ "CCL2" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -183.2498440904611,
+        "y" : 148.58998754428688
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "459",
+        "shared_name" : "CDK4",
+        "name" : "CDK4",
+        "Frequency" : 170,
+        "SUID" : 459,
+        "Matching_Attribute" : [ "CDK4" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -143.36723551504613,
+        "y" : -116.79254331888262
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "457",
+        "shared_name" : "MUC16",
+        "name" : "MUC16",
+        "SUID" : 457,
+        "Matching_Attribute" : [ "MUC16" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -64.43877444640418,
+        "y" : 16.834363170876575
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "455",
+        "shared_name" : "DDR1",
+        "name" : "DDR1",
+        "Frequency" : 2,
+        "SUID" : 455,
+        "Matching_Attribute" : [ "DDR1" ],
+        "selected" : true
+      },
+      "position" : {
+        "x" : 105.40030929936158,
+        "y" : 17.604068351408447
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "453",
+        "shared_name" : "MSLN",
+        "name" : "MSLN",
+        "SUID" : 453,
+        "Matching_Attribute" : [ "MSLN" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 23.266968399973,
+        "y" : 120.67426830641308
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "451",
+        "shared_name" : "CDK6",
+        "name" : "CDK6",
+        "Frequency" : 169,
+        "SUID" : 451,
+        "Matching_Attribute" : [ "CDK6" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -276.9568647347342,
+        "y" : -105.59550167564215
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "449",
+        "shared_name" : "HER2",
+        "name" : "HER2",
+        "SUID" : 449,
+        "Matching_Attribute" : [ "HER2" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 34.210603836726335,
+        "y" : 175.89072773412326
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "447",
+        "shared_name" : "TACSTD2",
+        "name" : "TACSTD2",
+        "SUID" : 447,
+        "Matching_Attribute" : [ "TACSTD2" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : 5.344766125885631,
+        "y" : 52.53560660461554
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "445",
+        "shared_name" : "TP53",
+        "name" : "TP53",
+        "Frequency" : 1,
+        "SUID" : 445,
+        "Matching_Attribute" : [ "TP53" ],
+        "selected" : false
+      },
+      "position" : {
+        "x" : -335.8940291209946,
+        "y" : 49.69143931196782
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "587",
+        "source" : "485",
+        "target" : "449",
+        "shared_name" : "SNCA (interacts with) HER2",
+        "mean_score_seeds" : 0.086,
+        "shared_interaction" : "interacts with",
+        "name" : "SNCA (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 587,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "585",
+        "source" : "483",
+        "target" : "455",
+        "shared_name" : "ING1 (interacts with) DDR1",
+        "mean_score_seeds" : 0.196,
+        "shared_interaction" : "interacts with",
+        "name" : "ING1 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 585,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "583",
+        "source" : "481",
+        "target" : "445",
+        "shared_name" : "KRAS (interacts with) TP53",
+        "shared_interaction" : "interacts with",
+        "name" : "KRAS (interacts with) TP53",
+        "interaction" : "interacts with",
+        "SUID" : 583,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "581",
+        "source" : "479",
+        "target" : "475",
+        "shared_name" : "ERBB2 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "ERBB2 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 581,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "579",
+        "source" : "477",
+        "target" : "459",
+        "shared_name" : "FASN (interacts with) CDK4",
+        "mean_score_seeds" : 0.146,
+        "shared_interaction" : "interacts with",
+        "name" : "FASN (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 579,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "577",
+        "source" : "475",
+        "target" : "481",
+        "shared_name" : "ESR1 (interacts with) KRAS",
+        "shared_interaction" : "interacts with",
+        "name" : "ESR1 (interacts with) KRAS",
+        "interaction" : "interacts with",
+        "SUID" : 577,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "575",
+        "source" : "475",
+        "target" : "445",
+        "shared_name" : "ESR1 (interacts with) TP53",
+        "shared_interaction" : "interacts with",
+        "name" : "ESR1 (interacts with) TP53",
+        "interaction" : "interacts with",
+        "SUID" : 575,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "573",
+        "source" : "469",
+        "target" : "455",
+        "shared_name" : "CAMKK2 (interacts with) DDR1",
+        "mean_score_seeds" : 0.071,
+        "shared_interaction" : "interacts with",
+        "name" : "CAMKK2 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 573,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "571",
+        "source" : "469",
+        "target" : "459",
+        "shared_name" : "CAMKK2 (interacts with) CDK4",
+        "mean_score_seeds" : 0.231,
+        "shared_interaction" : "interacts with",
+        "name" : "CAMKK2 (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 571,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "569",
+        "source" : "469",
+        "target" : "449",
+        "shared_name" : "CAMKK2 (interacts with) HER2",
+        "mean_score_seeds" : 0.217,
+        "shared_interaction" : "interacts with",
+        "name" : "CAMKK2 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 569,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "567",
+        "source" : "467",
+        "target" : "481",
+        "shared_name" : "ESPL1 (interacts with) KRAS",
+        "mean_score_seeds" : 0.499,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) KRAS",
+        "interaction" : "interacts with",
+        "SUID" : 567,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "565",
+        "source" : "467",
+        "target" : "461",
+        "shared_name" : "ESPL1 (interacts with) CCL2",
+        "mean_score_seeds" : 0.455,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) CCL2",
+        "interaction" : "interacts with",
+        "SUID" : 565,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "563",
+        "source" : "467",
+        "target" : "473",
+        "shared_name" : "ESPL1 (interacts with) AKT1",
+        "mean_score_seeds" : 0.461,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) AKT1",
+        "interaction" : "interacts with",
+        "SUID" : 563,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "561",
+        "source" : "467",
+        "target" : "475",
+        "shared_name" : "ESPL1 (interacts with) ESR1",
+        "mean_score_seeds" : 0.507,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 561,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "559",
+        "source" : "467",
+        "target" : "471",
+        "shared_name" : "ESPL1 (interacts with) MTOR",
+        "mean_score_seeds" : 0.41,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) MTOR",
+        "interaction" : "interacts with",
+        "SUID" : 559,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "557",
+        "source" : "467",
+        "target" : "455",
+        "shared_name" : "ESPL1 (interacts with) DDR1",
+        "mean_score_seeds" : 0.608,
+        "shared_interaction" : "interacts with",
+        "name" : "ESPL1 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 557,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "555",
+        "source" : "465",
+        "target" : "451",
+        "shared_name" : "CCND1 (interacts with) CDK6",
+        "shared_interaction" : "interacts with",
+        "name" : "CCND1 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 555,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "553",
+        "source" : "465",
+        "target" : "459",
+        "shared_name" : "CCND1 (interacts with) CDK4",
+        "shared_interaction" : "interacts with",
+        "name" : "CCND1 (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 553,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "551",
+        "source" : "463",
+        "target" : "449",
+        "shared_name" : "AHR (interacts with) HER2",
+        "mean_score_seeds" : 0.404,
+        "shared_interaction" : "interacts with",
+        "name" : "AHR (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 551,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "549",
+        "source" : "463",
+        "target" : "455",
+        "shared_name" : "AHR (interacts with) DDR1",
+        "mean_score_seeds" : 0.233,
+        "shared_interaction" : "interacts with",
+        "name" : "AHR (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 549,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "547",
+        "source" : "459",
+        "target" : "475",
+        "shared_name" : "CDK4 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 547,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "545",
+        "source" : "459",
+        "target" : "455",
+        "shared_name" : "CDK4 (interacts with) DDR1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 545,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "543",
+        "source" : "459",
+        "target" : "479",
+        "shared_name" : "CDK4 (interacts with) ERBB2",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 543,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "541",
+        "source" : "459",
+        "target" : "471",
+        "shared_name" : "CDK4 (interacts with) MTOR",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) MTOR",
+        "interaction" : "interacts with",
+        "SUID" : 541,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "539",
+        "source" : "459",
+        "target" : "451",
+        "shared_name" : "CDK4 (interacts with) CDK6",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK4 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 539,
+        "edge_type" : "",
+        "Weight" : 131,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "537",
+        "source" : "457",
+        "target" : "481",
+        "shared_name" : "MUC16 (interacts with) KRAS",
+        "mean_score_seeds" : 0.315,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) KRAS",
+        "interaction" : "interacts with",
+        "SUID" : 537,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "535",
+        "source" : "457",
+        "target" : "479",
+        "shared_name" : "MUC16 (interacts with) ERBB2",
+        "mean_score_seeds" : 0.4,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 535,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "533",
+        "source" : "457",
+        "target" : "475",
+        "shared_name" : "MUC16 (interacts with) ESR1",
+        "mean_score_seeds" : 0.34,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 533,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "531",
+        "source" : "457",
+        "target" : "473",
+        "shared_name" : "MUC16 (interacts with) AKT1",
+        "mean_score_seeds" : 0.395,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) AKT1",
+        "interaction" : "interacts with",
+        "SUID" : 531,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "529",
+        "source" : "457",
+        "target" : "471",
+        "shared_name" : "MUC16 (interacts with) MTOR",
+        "mean_score_seeds" : 0.302,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) MTOR",
+        "interaction" : "interacts with",
+        "SUID" : 529,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "527",
+        "source" : "457",
+        "target" : "465",
+        "shared_name" : "MUC16 (interacts with) CCND1",
+        "mean_score_seeds" : 0.282,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) CCND1",
+        "interaction" : "interacts with",
+        "SUID" : 527,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "525",
+        "source" : "457",
+        "target" : "461",
+        "shared_name" : "MUC16 (interacts with) CCL2",
+        "mean_score_seeds" : 0.401,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) CCL2",
+        "interaction" : "interacts with",
+        "SUID" : 525,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "523",
+        "source" : "457",
+        "target" : "449",
+        "shared_name" : "MUC16 (interacts with) HER2",
+        "mean_score_seeds" : 0.246,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 523,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "521",
+        "source" : "457",
+        "target" : "451",
+        "shared_name" : "MUC16 (interacts with) CDK6",
+        "mean_score_seeds" : 0.515,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 521,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "519",
+        "source" : "457",
+        "target" : "459",
+        "shared_name" : "MUC16 (interacts with) CDK4",
+        "mean_score_seeds" : 0.37,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 519,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "517",
+        "source" : "457",
+        "target" : "455",
+        "shared_name" : "MUC16 (interacts with) DDR1",
+        "mean_score_seeds" : 0.432,
+        "shared_interaction" : "interacts with",
+        "name" : "MUC16 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 517,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "515",
+        "source" : "453",
+        "target" : "461",
+        "shared_name" : "MSLN (interacts with) CCL2",
+        "mean_score_seeds" : 0.261,
+        "shared_interaction" : "interacts with",
+        "name" : "MSLN (interacts with) CCL2",
+        "interaction" : "interacts with",
+        "SUID" : 515,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "513",
+        "source" : "453",
+        "target" : "459",
+        "shared_name" : "MSLN (interacts with) CDK4",
+        "mean_score_seeds" : 0.403,
+        "shared_interaction" : "interacts with",
+        "name" : "MSLN (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 513,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "511",
+        "source" : "453",
+        "target" : "451",
+        "shared_name" : "MSLN (interacts with) CDK6",
+        "mean_score_seeds" : 0.393,
+        "shared_interaction" : "interacts with",
+        "name" : "MSLN (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 511,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "509",
+        "source" : "453",
+        "target" : "449",
+        "shared_name" : "MSLN (interacts with) HER2",
+        "mean_score_seeds" : 0.348,
+        "shared_interaction" : "interacts with",
+        "name" : "MSLN (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 509,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "507",
+        "source" : "453",
+        "target" : "455",
+        "shared_name" : "MSLN (interacts with) DDR1",
+        "mean_score_seeds" : 0.434,
+        "shared_interaction" : "interacts with",
+        "name" : "MSLN (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 507,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "505",
+        "source" : "451",
+        "target" : "475",
+        "shared_name" : "CDK6 (interacts with) ESR1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) ESR1",
+        "interaction" : "interacts with",
+        "SUID" : 505,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "503",
+        "source" : "451",
+        "target" : "455",
+        "shared_name" : "CDK6 (interacts with) DDR1",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 503,
+        "edge_type" : "",
+        "Weight" : 1,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "501",
+        "source" : "451",
+        "target" : "479",
+        "shared_name" : "CDK6 (interacts with) ERBB2",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) ERBB2",
+        "interaction" : "interacts with",
+        "SUID" : 501,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "499",
+        "source" : "451",
+        "target" : "471",
+        "shared_name" : "CDK6 (interacts with) MTOR",
+        "shared_interaction" : "interacts with",
+        "name" : "CDK6 (interacts with) MTOR",
+        "interaction" : "interacts with",
+        "SUID" : 499,
+        "edge_type" : "",
+        "Weight" : 2,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "497",
+        "source" : "447",
+        "target" : "471",
+        "shared_name" : "TACSTD2 (interacts with) MTOR",
+        "mean_score_seeds" : 0.449,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) MTOR",
+        "interaction" : "interacts with",
+        "SUID" : 497,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "495",
+        "source" : "447",
+        "target" : "461",
+        "shared_name" : "TACSTD2 (interacts with) CCL2",
+        "mean_score_seeds" : 0.461,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) CCL2",
+        "interaction" : "interacts with",
+        "SUID" : 495,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "493",
+        "source" : "447",
+        "target" : "459",
+        "shared_name" : "TACSTD2 (interacts with) CDK4",
+        "mean_score_seeds" : 0.45,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) CDK4",
+        "interaction" : "interacts with",
+        "SUID" : 493,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "491",
+        "source" : "447",
+        "target" : "455",
+        "shared_name" : "TACSTD2 (interacts with) DDR1",
+        "mean_score_seeds" : 0.418,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) DDR1",
+        "interaction" : "interacts with",
+        "SUID" : 491,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "489",
+        "source" : "447",
+        "target" : "451",
+        "shared_name" : "TACSTD2 (interacts with) CDK6",
+        "mean_score_seeds" : 0.499,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) CDK6",
+        "interaction" : "interacts with",
+        "SUID" : 489,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "487",
+        "source" : "447",
+        "target" : "449",
+        "shared_name" : "TACSTD2 (interacts with) HER2",
+        "mean_score_seeds" : 0.55,
+        "shared_interaction" : "interacts with",
+        "name" : "TACSTD2 (interacts with) HER2",
+        "interaction" : "interacts with",
+        "SUID" : 487,
+        "edge_type" : "predicted",
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

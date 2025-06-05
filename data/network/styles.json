@@ -1,0 +1,190 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.3",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "default",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "background-color" : "rgb(137,208,245)",
+      "font-size" : 15,
+      "text-opacity" : 1.0,
+      "border-color" : "rgb(37,37,37)",
+      "border-opacity" : 1.0,
+      "color" : "rgb(0,0,0)",
+      "height" : 35.0,
+      "background-opacity" : 1.0,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "border-width" : 0.0,
+      "width" : 35.0,
+      "font-family" : "SansSerif.plain",
+      "font-weight" : "normal",
+      "content" : "data(name)",
+      "shape" : "data(name)"
+    }
+  }, {
+    "selector" : "node[pmid_count > 1,873]",
+    "css" : {
+      "border-width" : 1.0
+    }
+  }, {
+    "selector" : "node[pmid_count = 1,873]",
+    "css" : {
+      "border-width" : 10.0
+    }
+  }, {
+    "selector" : "node[pmid_count > 1][pmid_count < 1,873]",
+    "css" : {
+      "border-width" : "mapData(pmid_count,1,1,873,4.0,10.0)"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1]",
+    "css" : {
+      "border-width" : 4.0
+    }
+  }, {
+    "selector" : "node[pmid_count < 1]",
+    "css" : {
+      "border-width" : 1.0
+    }
+  }, {
+    "selector" : "node[pmid_count > 1,873]",
+    "css" : {
+      "background-color" : "rgb(68,1,84)"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1,873]",
+    "css" : {
+      "background-color" : "rgb(68,2,86)"
+    }
+  }, {
+    "selector" : "node[pmid_count > 937][pmid_count < 1,873]",
+    "css" : {
+      "background-color" : "mapData(pmid_count,937,1,873,rgb(33,145,140),rgb(68,2,86))"
+    }
+  }, {
+    "selector" : "node[pmid_count > 1][pmid_count < 937]",
+    "css" : {
+      "background-color" : "mapData(pmid_count,1,937,rgb(251,231,35),rgb(33,145,140))"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1]",
+    "css" : {
+      "background-color" : "rgb(251,231,35)"
+    }
+  }, {
+    "selector" : "node[pmid_count < 1]",
+    "css" : {
+      "background-color" : "rgb(253,231,37)"
+    }
+  }, {
+    "selector" : "node[pmid_count > 1,873]",
+    "css" : {
+      "color" : "rgb(68,1,84)"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1,873]",
+    "css" : {
+      "color" : "rgb(255,255,255)"
+    }
+  }, {
+    "selector" : "node[pmid_count > 937][pmid_count < 1,873]",
+    "css" : {
+      "color" : "mapData(pmid_count,937,1,873,rgb(150,150,150),rgb(255,255,255))"
+    }
+  }, {
+    "selector" : "node[pmid_count > 1][pmid_count < 937]",
+    "css" : {
+      "color" : "mapData(pmid_count,1,937,rgb(37,37,37),rgb(150,150,150))"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1]",
+    "css" : {
+      "color" : "rgb(37,37,37)"
+    }
+  }, {
+    "selector" : "node[pmid_count < 1]",
+    "css" : {
+      "color" : "rgb(253,231,37)"
+    }
+  }, {
+    "selector" : "node[pmid_count > 1,873]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "node[pmid_count = 1,873]",
+    "css" : {
+      "width" : 130.0
+    }
+  }, {
+    "selector" : "node[pmid_count > 1][pmid_count < 1,873]",
+    "css" : {
+      "width" : "mapData(pmid_count,1,1,873,50.0,130.0)"
+    }
+  }, {
+    "selector" : "node[pmid_count = 1]",
+    "css" : {
+      "width" : 50.0
+    }
+  }, {
+    "selector" : "node[pmid_count < 1]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "target-arrow-color" : "rgb(0,0,0)",
+      "width" : 2.0,
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "font-size" : 10,
+      "content" : "",
+      "opacity" : 1.0,
+      "text-opacity" : 1.0,
+      "source-arrow-color" : "rgb(0,0,0)",
+      "source-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "line-style" : "solid",
+      "target-arrow-shape" : "none",
+      "line-color" : "rgb(132,132,132)"
+    }
+  }, {
+    "selector" : "edge[weight > 1,335]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge[weight = 1,335]",
+    "css" : {
+      "width" : 30.0
+    }
+  }, {
+    "selector" : "edge[weight > 1][weight < 1,335]",
+    "css" : {
+      "width" : "mapData(weight,1,1,335,3.0,30.0)"
+    }
+  }, {
+    "selector" : "edge[weight = 1]",
+    "css" : {
+      "width" : 3.0
+    }
+  }, {
+    "selector" : "edge[weight < 1]",
+    "css" : {
+      "width" : 1.0
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+} ]

@@ -1,0 +1,13 @@
+# 忽略 Windows 和 Python 生成的中间文件
+__pycache__/
+*.pyc
+*.log
+
+# 忽略虚拟环境
+.venv/
+
+# VS Code 项目文件（如果使用 VS Code）
+.vscode/
+
+# IDE 配置文件（如 PyCharm 的 .idea）
+.idea/

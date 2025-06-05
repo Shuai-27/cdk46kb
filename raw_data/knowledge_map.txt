@@ -1,0 +1,824 @@
+1. 分子机制 | Molecular Mechanisms
+ 1.1 CDK4/6在细胞周期中的作用 | Role of CDK4/6 in the Cell Cycle
+     1.1.1 G1/S期转换调控 | Regulation of the G1/S Transition
+         1.1.1.1 RB蛋白磷酸化 | RB Protein Phosphorylation
+         1.1.1.2 E2F转录因子释放 | Release of E2F Transcription Factors
+         1.1.1.3 细胞周期检查点控制 | Cell‑Cycle Checkpoint Control
+     1.1.2 周期蛋白复合物形成 | Cyclin Complex Formation
+         1.1.2.1 Cyclin D-CDK4复合物 | Cyclin D‑CDK4 Complex
+         1.1.2.2 Cyclin D-CDK6复合物 | Cyclin D‑CDK6 Complex
+         1.1.2.3 复合物活性调节 | Regulation of Complex Activity
+     1.1.3 细胞周期阻滞 | Cell‑Cycle Arrest
+         1.1.3.1 G1期阻滞 | G1‑Phase Arrest
+         1.1.3.2 细胞衰老诱导 | Induction of Cellular Senescence
+         1.1.3.3 增殖抑制 | Inhibition of Proliferation
+
+    1.2 CDK4/6通路的调控机制 | Regulatory Mechanisms of the CDK4/6 Pathway
+        1.2.1 上游调控因子 | Upstream Regulatory Factors
+            1.2.1.1 生长因子信号 | Growth‑Factor Signaling
+            1.2.1.2 激素信号通路 | Hormone Signaling Pathways
+            1.2.1.3 应激反应通路 | Stress‑Response Pathways
+        1.2.2 转录水平调控 | Transcriptional Regulation
+            1.2.2.1 转录因子网络 | Transcription‑Factor Networks
+            1.2.2.2 表观遗传修饰 | Epigenetic Modifications
+            1.2.2.3 非编码RNA调控 | Non‑coding RNA Regulation
+        1.2.3 蛋白水平调控 | Regulation at the Protein Level
+            1.2.3.1 翻译后修饰 | Post‑translational Modifications
+            1.2.3.2 蛋白稳定性 | Protein Stability
+            1.2.3.3 蛋白降解途径 | Protein Degradation Pathways
+
+    1.3 CDK4/6与其他信号通路的交互 | Crosstalk Between CDK4/6 and Other Signaling Pathways
+        1.3.1 PI3K/AKT/mTOR通路 | PI3K/AKT/mTOR Pathway
+            1.3.1.1 信号交叉激活 | Cross‑activation
+            1.3.1.2 反馈调节 | Feedback Regulation
+            1.3.1.3 协同效应 | Synergistic Effects
+        1.3.2 MAPK信号通路 | MAPK Signaling Pathway
+            1.3.2.1 RAS/RAF/MEK/ERK级联 | RAS/RAF/MEK/ERK Cascade
+            1.3.2.2 JNK通路交互 | Interaction with the JNK Pathway
+            1.3.2.3 p38通路交互 | Interaction with the p38 Pathway
+        1.3.3 DNA损伤修复通路 | DNA Damage‑Repair Pathways
+            1.3.3.1 P53通路相互作用 | Interaction with the p53 Pathway
+            1.3.3.2 DNA修复机制 | DNA Repair Mechanisms
+            1.3.3.3 细胞凋亡调控 | Regulation of Apoptosis
+
+    1.4 CDK4/6在细胞增殖分化中的作用 | Role of CDK4/6 in Cell Proliferation and Differentiation
+        1.4.1 细胞增殖调控 | Regulation of Cell Proliferation
+            1.4.1.1 增殖信号整合 | Integration of Proliferative Signals
+            1.4.1.2 细胞周期进程 | Cell‑Cycle Progression
+            1.4.1.3 增殖抑制机制 | Mechanisms of Proliferation Inhibition
+        1.4.2 分化过程调控 | Regulation of Differentiation
+            1.4.2.1 谱系特异性分化 | Lineage‑specific Differentiation
+            1.4.2.2 分化标志物表达 | Expression of Differentiation Markers
+            1.4.2.3 干细胞维持 | Stem‑cell Maintenance
+        1.4.3 细胞命运决定 | Determination of Cell Fate
+            1.4.3.1 存活信号调控 | Regulation of Survival Signals
+            1.4.3.2 衰老程序激活 | Activation of Senescence Programs
+            1.4.3.3 凋亡阈值调节 | Adjustment of Apoptotic Thresholds
+
+    1.5 转录调控和表观遗传修饰 | Transcriptional and Epigenetic Regulation
+        1.5.1 染色质重塑 | Chromatin Remodeling
+            1.5.1.1 组蛋白修饰 | Histone Modifications
+            1.5.1.2 DNA甲基化 | DNA Methylation
+            1.5.1.3 染色质可及性 | Chromatin Accessibility
+        1.5.2 转录因子网络 | Transcription‑Factor Networks
+            1.5.2.1 关键转录因子 | Key Transcription Factors
+            1.5.2.2 共激活因子 | Co‑activators
+            1.5.2.3 抑制复合物 | Repressor Complexes
+        1.5.3 非编码RNA调控 | Non‑coding RNA Regulation
+            1.5.3.1 长链非编码RNA | Long Non‑coding RNAs
+            1.5.3.2 微小RNA | MicroRNAs
+            1.5.3.3 环状RNA | Circular RNAs
+
+    1.6 CDK4/6与肿瘤干细胞 | CDK4/6 and Cancer Stem Cells
+        1.6.1 干细胞特性维持 | Maintenance of Stem‑cell Traits
+            1.6.1.1 自我更新 | Self‑renewal
+            1.6.1.2 多能性维持 | Maintenance of Pluripotency
+            1.6.1.3 干性标志物表达 | Expression of Stemness Markers
+        1.6.2 分化调控 | Regulation of Differentiation
+            1.6.2.1 分化信号响应 | Response to Differentiation Signals
+            1.6.2.2 谱系决定 | Lineage Commitment
+            1.6.2.3 分化阻滞 | Differentiation Block
+        1.6.3 微环境相互作用 | Interactions with the Microenvironment
+            1.6.3.1 干细胞位点维持 | Maintenance of Stem‑cell Niches
+            1.6.3.2 细胞因子网络 | Cytokine Networks
+            1.6.3.3 代谢微环境 | Metabolic Microenvironment
+
+2. 耐药机制 | Mechanisms of Drug Resistance
+ 2.1 获得性耐药的分子基础 | Molecular Basis of Acquired Resistance
+     2.1.1 基因组改变 | Genomic Alterations
+         2.1.1.1 CDK4/6基因扩增 | CDK4/6 Gene Amplification
+         2.1.1.2 RB1基因丢失 | RB1 Gene Loss
+         2.1.1.3 CCNE1过表达 | CCNE1 Overexpression
+         2.1.1.4 ESR1突变 | ESR1 Mutations
+     2.1.2 信号通路激活 | Activation of Signaling Pathways
+         2.1.2.1 PI3K/AKT通路异常 | Aberrant PI3K/AKT Signaling
+         2.1.2.2 MAPK通路激活 | MAPK Pathway Activation
+         2.1.2.3 mTOR信号增强 | Enhanced mTOR Signaling
+         2.1.2.4 替代性生存通路 | Alternative Survival Pathways
+     2.1.3 表观遗传改变 | Epigenetic Alterations
+         2.1.3.1 DNA甲基化模式改变 | Altered DNA‑methylation Patterns
+         2.1.3.2 组蛋白修饰异常 | Aberrant Histone Modifications
+         2.1.3.3 非编码RNA表达变化 | Altered Expression of Non‑coding RNAs
+         2.1.3.4 染色质状态改变 | Changes in Chromatin State
+
+    2.2 原发性耐药的机制 | Mechanisms of Primary Resistance
+        2.2.1 遗传学基础 | Genetic Basis
+            2.2.1.1 RB通路缺陷 | Defects in the RB Pathway
+            2.2.1.2 CDKN2A缺失 | CDKN2A Deletion
+            2.2.1.3 p53功能缺失 | Loss of p53 Function
+            2.2.1.4 关键基因突变 | Mutations in Key Genes
+        2.2.2 细胞周期调控异常 | Abnormal Cell‑cycle Regulation
+            2.2.2.1 G1/S检查点失控 | Loss of G1/S Checkpoint Control
+            2.2.2.2 细胞周期蛋白异常 | Aberrant Cyclin Expression
+            2.2.2.3 CDK活性失调 | Dysregulated CDK Activity
+            2.2.2.4 周期素表达失衡 | Imbalanced Cyclin Levels
+        2.2.3 代谢重编程 | Metabolic Reprogramming
+            2.2.3.1 能量代谢改变 | Altered Energy Metabolism
+            2.2.3.2 氧化还原失衡 | Redox Imbalance
+            2.2.3.3 脂质代谢异常 | Aberrant Lipid Metabolism
+            2.2.3.4 葡萄糖代谢改变 | Altered Glucose Metabolism
+
+    2.3 耐药相关的生物标志物 | Resistance‑associated Biomarkers
+        2.3.1 基因组标志物 | Genomic Biomarkers
+            2.3.1.1 基因拷贝数变异 | Gene Copy‑number Variations
+            2.3.1.2 突变谱特征 | Mutational Signatures
+            2.3.1.3 基因融合事件 | Gene Fusion Events
+            2.3.1.4 染色体异常 | Chromosomal Aberrations
+        2.3.2 转录组标志物 | Transcriptomic Biomarkers
+            2.3.2.1 RNA表达谱 | RNA Expression Profiles
+            2.3.2.2 选择性剪接变异 | Alternative Splicing Variants
+            2.3.2.3 非编码RNA表达 | Expression of Non‑coding RNAs
+            2.3.2.4 通路活性标志 | Pathway Activity Markers
+        2.3.3 蛋白质标志物 | Proteomic Biomarkers
+            2.3.3.1 磷酸化水平 | Phosphorylation Levels
+            2.3.3.2 蛋白表达量 | Protein Expression Levels
+            2.3.3.3 蛋白修饰状态 | Protein Modification Status
+            2.3.3.4 蛋白复合物组成 | Composition of Protein Complexes
+
+    2.4 耐药基因变异和通路激活 | Resistance‑related Gene Variations and Pathway Activation
+        2.4.1 关键驱动基因变异 | Key Driver Gene Alterations
+            2.4.1.1 激活性突变 | Activating Mutations
+            2.4.1.2 失活性突变 | Loss‑of‑function Mutations
+            2.4.1.3 基因扩增 | Gene Amplification
+            2.4.1.4 基因缺失 | Gene Deletion
+        2.4.2 代偿性通路激活 | Compensatory Pathway Activation
+            2.4.2.1 旁路激活 | Bypass Activation
+            2.4.2.2 反馈环路 | Feedback Loops
+            2.4.2.3 交叉激活 | Cross‑activation
+            2.4.2.4 通路重编程 | Pathway Reprogramming
+        2.4.3 表观遗传调控变化 | Epigenetic Regulatory Changes
+            2.4.3.1 启动子甲基化 | Promoter Methylation
+            2.4.3.2 组蛋白修饰 | Histone Modifications
+            2.4.3.3 染色质重塑 | Chromatin Remodeling
+            2.4.3.4 转录调控网络 | Transcriptional Regulatory Networks
+
+    2.5 耐药克服策略 | Strategies to Overcome Resistance
+        2.5.1 联合用药方案 | Combination Therapy Regimens
+            2.5.1.1 多靶点抑制 | Multi‑target Inhibition
+            2.5.1.2 序贯治疗 | Sequential Therapy
+            2.5.1.3 剂量优化 | Dose Optimization
+            2.5.1.4 时序调控 | Temporal Scheduling
+        2.5.2 靶向治疗优化 | Optimization of Targeted Therapy
+            2.5.2.1 新型抑制剂开发 | Development of Novel Inhibitors
+            2.5.2.2 给药策略改进 | Improved Drug‑delivery Strategies
+            2.5.2.3 个体化方案 | Personalized Regimens
+            2.5.2.4 生物标志物指导 | Biomarker‑guided Approaches
+        2.5.3 免疫治疗联合 | Immunotherapy Combinations
+            2.5.3.1 免疫检查点阻断 | Immune Checkpoint Blockade
+            2.5.3.2 免疫微环境调控 | Modulation of the Immune Microenvironment
+            2.5.3.3 CAR-T细胞治疗 | CAR‑T Cell Therapy
+            2.5.3.4 疫苗治疗 | Vaccine Therapy
+
+    2.6 交叉耐药机制 | Mechanisms of Cross‑resistance
+        2.6.1 多药耐药 | Multidrug Resistance
+            2.6.1.1 药物外排增加 | Increased Drug Efflux
+            2.6.1.2 代谢酶变化 | Altered Metabolic Enzymes
+            2.6.1.3 靶点修饰 | Target Modification
+            2.6.1.4 细胞凋亡抑制 | Suppression of Apoptosis
+        2.6.2 信号通路交叉 | Crosstalk Between Signaling Pathways
+            2.6.2.1 旁路激活 | Bypass Activation
+            2.6.2.2 代偿性通路 | Compensatory Pathways
+            2.6.2.3 反馈调节 | Feedback Regulation
+            2.6.2.4 网络重组 | Network Rewiring
+        2.6.3 微环境影响 | Microenvironmental Influences
+            2.6.3.1 基质重塑 | Matrix Remodeling
+            2.6.3.2 血管生成 | Angiogenesis
+            2.6.3.3 免疫逃逸 | Immune Evasion
+            2.6.3.4 代谢适应 | Metabolic Adaptation
+
+3. 治疗机制 | Therapeutic Mechanisms
+ 3.1 CDK4/6抑制剂的作用机制 | Mechanism of Action of CDK4/6 Inhibitors
+     3.1.1 细胞周期阻滞 | Cell‑cycle Arrest
+         3.1.1.1 G1/S期转换抑制 | Inhibition of the G1/S Transition
+         3.1.1.2 RB蛋白磷酸化抑制 | Inhibition of RB Protein Phosphorylation
+         3.1.1.3 E2F转录因子活性下调 | Down‑regulation of E2F Transcription Factor Activity
+         3.1.1.4 增殖信号阻断 | Blockade of Proliferative Signaling
+     3.1.2 细胞衰老诱导 | Induction of Cellular Senescence
+         3.1.2.1 永久性生长停滞 | Permanent Growth Arrest
+         3.1.2.2 衰老相关分泌表型 | Senescence‑associated Secretory Phenotype
+         3.1.2.3 代谢重编程 | Metabolic Reprogramming
+         3.1.2.4 表观遗传改变 | Epigenetic Alterations
+     3.1.3 细胞凋亡调控 | Regulation of Apoptosis
+         3.1.3.1 凋亡阈值调节 | Adjustment of the Apoptotic Threshold
+         3.1.3.2 死亡受体通路激活 | Activation of the Death‑receptor Pathway
+         3.1.3.3 线粒体通路调控 | Regulation of the Mitochondrial Pathway
+         3.1.3.4 生存信号抑制 | Suppression of Survival Signaling
+
+    3.2 联合治疗的机制基础 | Rationale for Combination Therapy
+        3.2.1 内分泌治疗联合 | Combination with Endocrine Therapy
+            3.2.1.1 雌激素信号阻断 | Blockade of Estrogen Signaling
+            3.2.1.2 激素受体降解 | Degradation of Hormone Receptors
+            3.2.1.3 协同抗增殖作用 | Synergistic Antiproliferative Effect
+            3.2.1.4 耐药机制克服 | Overcoming Resistance Mechanisms
+        3.2.2 靶向药物联合 | Combination with Targeted Agents
+            3.2.2.1 PI3K抑制剂协同 | Synergy with PI3K Inhibitors
+            3.2.2.2 mTOR抑制剂联用 | Co‑administration with mTOR Inhibitors
+            3.2.2.3 MEK抑制剂组合 | Combination with MEK Inhibitors
+            3.2.2.4 多靶点抑制策略 | Multi‑target Inhibition Strategy
+        3.2.3 化疗药物联合 | Combination with Chemotherapeutic Drugs
+            3.2.3.1 时序性联合 | Sequential Combination
+            3.2.3.2 协同增效作用 | Synergistic Potentiation
+            3.2.3.3 毒性管理 | Toxicity Management
+            3.2.3.4 耐药预防 | Prevention of Resistance
+
+    3.3 抗肿瘤免疫反应的调控 | Regulation of Antitumor Immune Response
+        3.3.1 免疫微环境重塑 | Remodeling of the Immune Microenvironment
+            3.3.1.1 免疫细胞浸润增加 | Increased Immune‑cell Infiltration
+            3.3.1.2 抗原提呈增强 | Enhanced Antigen Presentation
+            3.3.1.3 炎症因子调节 | Modulation of Inflammatory Cytokines
+            3.3.1.4 免疫抑制缓解 | Alleviation of Immunosuppression
+        3.3.2 免疫检查点调节 | Modulation of Immune Checkpoints
+            3.3.2.1 PD-1/PD-L1表达调控 | Regulation of PD‑1/PD‑L1 Expression
+            3.3.2.2 T细胞活化增强 | Enhanced T‑cell Activation
+            3.3.2.3 免疫逃逸抑制 | Suppression of Immune Evasion
+            3.3.2.4 协同免疫激活 | Synergistic Immune Activation
+        3.3.3 免疫记忆形成 | Formation of Immune Memory
+            3.3.3.1 记忆T细胞产生 | Generation of Memory T Cells
+            3.3.3.2 长期免疫监视 | Long‑term Immunosurveillance
+            3.3.3.3 二次免疫应答 | Secondary Immune Response
+            3.3.3.4 免疫耐受预防 | Prevention of Immune Tolerance
+
+    3.4 细胞衰老和凋亡诱导 | Induction of Cellular Senescence and Apoptosis
+        3.4.1 衰老程序激活 | Activation of Senescence Programs
+            3.4.1.1 细胞周期永久阻滞 | Permanent Cell‑cycle Arrest
+            3.4.1.2 DNA损伤应答 | DNA Damage Response
+            3.4.1.3 代谢改变 | Metabolic Alterations
+            3.4.1.4 表观遗传重编程 | Epigenetic Reprogramming
+        3.4.2 凋亡途径诱导 | Induction of Apoptotic Pathways
+            3.4.2.1 内源性途径激活 | Activation of Endogenous Pathways
+            3.4.2.2 外源性途径激活 | Activation of Exogenous Pathways
+            3.4.2.3 凋亡执行 | Execution of Apoptosis
+            3.4.2.4 死亡信号放大 | Amplification of Death Signals
+        3.4.3 自噬调控 | Regulation of Autophagy
+            3.4.3.1 自噬启动 | Initiation of Autophagy
+            3.4.3.2 自噬流变化 | Alteration of Autophagic Flux
+            3.4.3.3 选择性自噬 | Selective Autophagy
+            3.4.3.4 细胞命运决定 | Determination of Cell Fate
+
+    3.5 肿瘤微环境的调节 | Modulation of the Tumor Microenvironment
+        3.5.1 血管生成抑制 | Inhibition of Angiogenesis
+            3.5.1.1 血管密度降低 | Reduced Vascular Density
+            3.5.1.2 血管正常化 | Vascular Normalization
+            3.5.1.3 缺氧应答调节 | Regulation of Hypoxic Response
+            3.5.1.4 营养供应改变 | Altered Nutrient Supply
+        3.5.2 基质重塑 | Remodeling of the Extracellular Matrix
+            3.5.2.1 基质蛋白修饰 | Modification of Extracellular Matrix Proteins
+            3.5.2.2 基质金属蛋白酶调控 | Regulation of Matrix Metalloproteinases
+            3.5.2.3 纤维化抑制 | Inhibition of Fibrosis
+            3.5.2.4 基质细胞活化抑制 | Inhibition of Stromal‑cell Activation
+        3.5.3 代谢微环境改变 | Alterations in the Metabolic Microenvironment
+            3.5.3.1 葡萄糖代谢调节 | Regulation of Glucose Metabolism
+            3.5.3.2 氨基酸代谢改变 | Alteration of Amino‑acid Metabolism
+            3.5.3.3 脂质代谢调控 | Regulation of Lipid Metabolism
+            3.5.3.4 代谢物组成改变 | Changes in Metabolite Composition
+
+    3.6 药物递送系统优化 | Optimization of Drug Delivery Systems
+        3.6.1 靶向递送策略 | Targeted Delivery Strategies
+            3.6.1.1 纳米载体设计 | Design of Nanocarriers
+            3.6.1.2 靶向配体修饰 | Target‑ligand Functionalization
+            3.6.1.3 刺激响应释放 | Stimuli‑responsive Release
+            3.6.1.4 组织渗透增强 | Enhanced Tissue Penetration
+        3.6.2 药物释放调控 | Controlled Drug Release
+            3.6.2.1 持续缓释 | Sustained Release
+            3.6.2.2 脉冲释放 | Pulsatile Release
+            3.6.2.3 时空控制 | Spatiotemporal Control
+            3.6.2.4 多药协同递送 | Co‑delivery of Multiple Drugs
+        3.6.3 生物利用度提高 | Improved Bioavailability
+            3.6.3.1 药物溶解度改善 | Enhanced Drug Solubility
+            3.6.3.2 细胞摄取增强 | Enhanced Cellular Uptake
+            3.6.3.3 代谢稳定性提高 | Increased Metabolic Stability
+            3.6.3.4 血脑屏障穿透 | Blood–brain Barrier Penetration
+
+4. 代谢通路 | Metabolic Pathways
+ 4.1 细胞代谢重编程 | Cellular Metabolic Reprogramming
+     4.1.1 葡萄糖代谢改变 | Alterations in Glucose Metabolism
+         4.1.1.1 有氧糖酵解增强 | Enhanced Aerobic Glycolysis
+         4.1.1.2 糖异生途径改变 | Altered Gluconeogenesis Pathway
+         4.1.1.3 戊糖磷酸途径激活 | Activation of the Pentose Phosphate Pathway
+         4.1.1.4 糖原代谢调节 | Regulation of Glycogen Metabolism
+     4.1.2 线粒体功能变化 | Mitochondrial Functional Changes
+         4.1.2.1 氧化磷酸化改变 | Altered Oxidative Phosphorylation
+         4.1.2.2 线粒体生物合成 | Mitochondrial Biogenesis
+         4.1.2.3 线粒体动力学 | Mitochondrial Dynamics
+         4.1.2.4 线粒体质量控制 | Mitochondrial Quality Control
+     4.1.3 代谢酶表达调控 | Regulation of Metabolic Enzyme Expression
+         4.1.3.1 关键酶活性调节 | Regulation of Key Enzyme Activity
+         4.1.3.2 代谢酶基因转录 | Transcription of Metabolic Enzyme Genes
+         4.1.3.3 翻译后修饰 | Post‑translational Modifications
+         4.1.3.4 酶稳定性控制 | Control of Enzyme Stability
+
+    4.2 能量代谢调节 | Regulation of Energy Metabolism
+        4.2.1 ATP产生和利用 | ATP Production and Utilization
+            4.2.1.1 糖酵解ATP产生 | ATP Generation via Glycolysis
+            4.2.1.2 氧化磷酸化效率 | Efficiency of Oxidative Phosphorylation
+            4.2.1.3 ATP消耗过程 | ATP Consumption Processes
+            4.2.1.4 能量感应机制 | Energy‑sensing Mechanisms
+        4.2.2 AMPK信号通路 | AMP‑activated Protein Kinase (AMPK) Signaling Pathway
+            4.2.2.1 能量应激感应 | Energy Stress Sensing
+            4.2.2.2 代谢底物调控 | Regulation by Metabolic Substrates
+            4.2.2.3 下游效应器激活 | Activation of Downstream Effectors
+            4.2.2.4 代谢适应反应 | Metabolic Adaptive Responses
+        4.2.3 营养物质感应 | Nutrient Sensing
+            4.2.3.1 葡萄糖感应 | Glucose Sensing
+            4.2.3.2 氨基酸感应 | Amino‑acid Sensing
+            4.2.3.3 脂质感应 | Lipid Sensing
+            4.2.3.4 营养应激反应 | Nutrient Stress Response
+
+    4.3 氧化还原平衡 | Redox Homeostasis
+        4.3.1 ROS产生和清除 | ROS Generation and Clearance
+            4.3.1.1 线粒体ROS产生 | Mitochondrial ROS Production
+            4.3.1.2 NADPH氧化酶活性 | NADPH Oxidase Activity
+            4.3.1.3 抗氧化系统激活 | Activation of Antioxidant Systems
+            4.3.1.4 氧化应激反应 | Oxidative Stress Response
+        4.3.2 氧化还原信号 | Redox Signaling
+            4.3.2.1 硫醇修饰 | Thiol Modifications
+            4.3.2.2 蛋白质氧化 | Protein Oxidation
+            4.3.2.3 转录因子调控 | Regulation of Transcription Factors
+            4.3.2.4 代谢酶活性 | Metabolic Enzyme Activity
+        4.3.3 氧化损伤修复 | Repair of Oxidative Damage
+            4.3.3.1 DNA损伤修复 | DNA Damage Repair
+            4.3.3.2 蛋白质修复 | Protein Repair
+            4.3.3.3 脂质过氧化 | Lipid Peroxidation
+            4.3.3.4 细胞器功能维持 | Maintenance of Organelle Function
+
+    4.4 脂质代谢 | Lipid Metabolism
+        4.4.1 脂肪酸代谢 | Fatty‑acid Metabolism
+            4.4.1.1 脂肪酸合成 | Fatty‑acid Synthesis
+            4.4.1.2 脂肪酸氧化 | Fatty‑acid Oxidation
+            4.4.1.3 脂肪酸运输 | Fatty‑acid Transport
+            4.4.1.4 脂肪酸储存 | Fatty‑acid Storage
+        4.4.2 胆固醇代谢 | Cholesterol Metabolism
+            4.4.2.1 胆固醇合成 | Cholesterol Synthesis
+            4.4.2.2 胆固醇转运 | Cholesterol Transport
+            4.4.2.3 胆固醇调节 | Regulation of Cholesterol Levels
+            4.4.2.4 固醇类激素合成 | Steroid Hormone Biosynthesis
+        4.4.3 膜脂代谢 | Membrane Lipid Metabolism
+            4.4.3.1 磷脂合成 | Phospholipid Synthesis
+            4.4.3.2 膜脂组成 | Membrane Lipid Composition
+            4.4.3.3 膜流动性 | Membrane Fluidity
+            4.4.3.4 信号脂质 | Signaling Lipids
+
+    4.5 糖代谢重塑 | Remodeling of Carbohydrate Metabolism
+        4.5.1 糖酵解通路 | Glycolytic Pathway
+            4.5.1.1 关键酶调控 | Regulation of Key Enzymes
+            4.5.1.2 代谢中间产物 | Metabolic Intermediates
+            4.5.1.3 能量产生 | Energy Production
+            4.5.1.4 代谢流调控 | Regulation of Metabolic Flux
+        4.5.2 三羧酸循环 | Tricarboxylic Acid (TCA) Cycle
+            4.5.2.1 底物供应 | Substrate Supply
+            4.5.2.2 循环调控 | Regulation of the Cycle
+            4.5.2.3 代谢中间体 | Cycle Intermediates
+            4.5.2.4 线粒体功能 | Mitochondrial Function
+        4.5.3 糖异生作用 | Gluconeogenesis
+            4.5.3.1 底物利用 | Substrate Utilization
+            4.5.3.2 调节机制 | Regulatory Mechanisms
+            4.5.3.3 能量消耗 | Energy Expenditure
+            4.5.3.4 葡萄糖输出 | Glucose Output
+
+    4.6 氨基酸代谢 | Amino‑acid Metabolism
+        4.6.1 必需氨基酸代谢 | Essential Amino‑acid Metabolism
+            4.6.1.1 支链氨基酸 | Branched‑chain Amino Acids
+            4.6.1.2 芳香族氨基酸 | Aromatic Amino Acids
+            4.6.1.3 含硫氨基酸 | Sulfur‑containing Amino Acids
+            4.6.1.4 氨基酸转运 | Amino‑acid Transport
+        4.6.2 非必需氨基酸代谢 | Non‑essential Amino‑acid Metabolism
+            4.6.2.1 谷氨酰胺代谢 | Glutamine Metabolism
+            4.6.2.2 丝氨酸代谢 | Serine Metabolism
+            4.6.2.3 甘氨酸代谢 | Glycine Metabolism
+            4.6.2.4 合成和降解 | Synthesis and Degradation
+        4.6.3 氨基酸感应和调控 | Amino‑acid Sensing and Regulation
+            4.6.3.1 营养感应通路 | Nutrient‑sensing Pathways
+            4.6.3.2 代谢应激反应 | Metabolic Stress Response
+            4.6.3.3 蛋白质合成 | Protein Synthesis
+            4.6.3.4 细胞生长调控 | Regulation of Cell Growth
+
+5. 基因组稳定性 | Genome Stability
+ 5.1 DNA损伤修复 | DNA Damage Repair
+     5.1.1 同源重组修复 | Homologous Recombination Repair
+         5.1.1.1 DSB识别 | DSB Recognition
+         5.1.1.2 末端切除 | End Resection
+         5.1.1.3 链侵入 | Strand Invasion
+         5.1.1.4 DNA合成修复 | DNA Synthesis Repair
+     5.1.2 非同源末端连接 | Non‑homologous End Joining
+         5.1.2.1 DNA末端识别 | DNA End Recognition
+         5.1.2.2 复合物形成 | Complex Formation
+         5.1.2.3 末端处理 | End Processing
+         5.1.2.4 连接修复 | Ligation Repair
+     5.1.3 碱基切除修复 | Base Excision Repair
+         5.1.3.1 损伤识别 | Damage Recognition
+         5.1.3.2 切除过程 | Excision Process
+         5.1.3.3 间隙填补 | Gap Filling
+         5.1.3.4 连接恢复 | Ligation Restoration
+
+    5.2 染色体异常 | Chromosomal Abnormalities
+        5.2.1 结构异常 | Structural Abnormalities
+            5.2.1.1 易位 | Translocations
+            5.2.1.2 缺失 | Deletions
+            5.2.1.3 重复 | Duplications
+            5.2.1.4 倒位 | Inversions
+        5.2.2 数目异常 | Numerical Abnormalities
+            5.2.2.1 整倍体变化 | Ploidy Changes
+            5.2.2.2 非整倍体 | Aneuploidy
+            5.2.2.3 染色体丢失 | Chromosome Loss
+            5.2.2.4 染色体获得 | Chromosome Gain
+        5.2.3 染色体断裂 | Chromosome Breakage
+            5.2.3.1 脆性位点 | Fragile Sites
+            5.2.3.2 双链断裂 | Double‑strand Breaks
+            5.2.3.3 染色体桥 | Chromosome Bridges
+            5.2.3.4 微核形成 | Micronuclei Formation
+
+    5.3 基因拷贝数变异 | Copy Number Variations
+        5.3.1 基因扩增 | Gene Amplification
+            5.3.1.1 CDK4扩增 | CDK4 Amplification
+            5.3.1.2 CCND1扩增 | CCND1 Amplification
+            5.3.1.3 MDM2扩增 | MDM2 Amplification
+            5.3.1.4 基因组不稳定性 | Genomic Instability
+        5.3.2 基因缺失 | Gene Deletions
+            5.3.2.1 CDKN2A缺失 | CDKN2A Deletion
+            5.3.2.2 RB1缺失 | RB1 Deletion
+            5.3.2.3 TP53缺失 | TP53 Deletion
+            5.3.2.4 肿瘤抑制子缺失 | Tumor‑suppressor Deletions
+        5.3.3 剂量效应 | Dosage Effects
+            5.3.3.1 基因表达改变 | Altered Gene Expression
+            5.3.3.2 信号通路影响 | Pathway Impact
+            5.3.3.3 表型后果 | Phenotypic Consequences
+            5.3.3.4 治疗反应 | Therapeutic Response
+
+    5.4 基因融合和重排 | Gene Fusions and Rearrangements
+        5.4.1 融合类型 | Fusion Types
+            5.4.1.1 基因内融合 | Intragenic Fusion
+            5.4.1.2 基因间融合 | Intergenic Fusion
+            5.4.1.3 断裂点特征 | Breakpoint Characteristics
+            5.4.1.4 融合蛋白功能 | Fusion‑protein Function
+        5.4.2 形成机制 | Formation Mechanisms
+            5.4.2.1 染色体易位 | 染色体易位 (translate)
+            5.4.2.2 基因组重排 | Genome Rearrangements
+            5.4.2.3 DNA修复错误 | DNA修复错误 (translate)
+            5.4.2.4 断裂融合桥循环 | 断裂融合桥循环 (translate)
+        5.4.3 功能影响 | Functional Impact
+            5.4.3.1 原癌基因激活 | 原癌基因激活 (translate)
+            5.4.3.2 抑癌基因失活 | Tumor‑suppressor Inactivation
+            5.4.3.3 信号通路改变 | Pathway Alterations
+            5.4.3.4 治疗靶点形成 | Formation of Therapeutic Targets
+
+    5.5 突变谱特征 | Mutation Spectrum Characteristics
+        5.5.1 点突变 | Point Mutations
+            5.5.1.1 错义突变 | Missense Mutations
+            5.5.1.2 无义突变 | Nonsense Mutations
+            5.5.1.3 沉默突变 | Silent Mutations
+            5.5.1.4 剪切位点突变 | Splice‑site Mutations
+        5.5.2 插入缺失 | Insertions/Deletions
+            5.5.2.1 移码突变 | Frameshift Mutations
+            5.5.2.2 非移码突变 | In‑frame Mutations
+            5.5.2.3 基因组重排 | Genome Rearrangements
+            5.5.2.4 功能影响 | Functional Impact
+        5.5.3 突变特征 | Mutation Features
+            5.5.3.1 突变签名 | Mutational Signatures
+            5.5.3.2 热点区域 | Hotspot Regions
+            5.5.3.3 驱动突变 | Driver Mutations
+            5.5.3.4 乘客突变 | Passenger Mutations
+
+    5.6 染色质重塑 | Chromatin Remodeling
+        5.6.1 组蛋白修饰 | Histone Modifications
+            5.6.1.1 甲基化 | Methylation
+            5.6.1.2 乙酰化 | Acetylation
+            5.6.1.3 磷酸化 | Phosphorylation
+            5.6.1.4 泛素化 | Ubiquitination
+        5.6.2 染色质结构 | Chromatin Architecture
+            5.6.2.1 核小体重塑 | Nucleosome Remodeling
+            5.6.2.2 高级结构变化 | Higher‑order Structural Changes
+            5.6.2.3 染色质可及性 | Chromatin Accessibility
+            5.6.2.4 拓扑结构 | Topological Organization
+        5.6.3 表观遗传调控 | Epigenetic Regulation
+            5.6.3.1 DNA甲基化 | DNA Methylation
+            5.6.3.2 非编码RNA | Non‑coding RNAs
+            5.6.3.3 染色质修饰复合物 | Chromatin‑modifying Complexes
+            5.6.3.4 转录调控 | Transcriptional Regulation
+
+6. 微环境相互作用 | Microenvironment Interactions
+ 6.1 肿瘤免疫微环境 | Tumor Immune Microenvironment
+     6.1.1 免疫细胞浸润 | Immune Cell Infiltration
+         6.1.1.1 T细胞浸润 | T‑cell Infiltration
+             6.1.1.1.1 CD8+效应T细胞 | CD8+ Effector T Cells
+             6.1.1.1.2 调节性T细胞 | Regulatory T Cells
+             6.1.1.1.3 记忆T细胞 | Memory T Cells
+             6.1.1.1.4 细胞毒性活性 | Cytotoxic Activity
+         6.1.1.2 髓系细胞浸润 | Myeloid Cell Infiltration
+             6.1.1.2.1 巨噬细胞 | Macrophages
+             6.1.1.2.2 树突状细胞 | Dendritic Cells
+             6.1.1.2.3 髓源性抑制细胞 | Myeloid‑derived Suppressor Cells
+             6.1.1.2.4 中性粒细胞 | Neutrophils
+         6.1.1.3 免疫检查点表达 | Immune Checkpoint Expression
+             6.1.1.3.1 PD-1/PD-L1表达 | PD‑1/PD‑L1 Expression
+             6.1.1.3.2 CTLA-4表达 | CTLA‑4 Expression
+             6.1.1.3.3 LAG-3表达 | LAG‑3 Expression
+             6.1.1.3.4 TIM-3表达 | TIM‑3 Expression
+
+    6.2 血管生成调控 | Regulation of Angiogenesis
+        6.2.1 血管形成因子 | Angiogenic Factors
+            6.2.1.1 VEGF信号通路 | VEGF Signaling Pathway
+                6.2.1.1.1 VEGF表达 | VEGF Expression
+                6.2.1.1.2 受体激活 | Receptor Activation
+                6.2.1.1.3 下游信号传导 | Downstream Signaling
+                6.2.1.1.4 血管生成反应 | Angiogenic Response
+            6.2.1.2 其他促血管因子 | Other Pro‑angiogenic Factors
+                6.2.1.2.1 FGF家族 | FGF Family
+                6.2.1.2.2 PDGF信号 | PDGF Signaling
+                6.2.1.2.3 Ang/Tie2通路 | Ang/Tie2 Pathway
+                6.2.1.2.4 基质金属蛋白酶 | Matrix Metalloproteinases
+            6.2.1.3 血管稳定性 | Vascular Stability
+                6.2.1.3.1 周细胞募集 | Pericyte Recruitment
+                6.2.1.3.2 基底膜形成 | Basement Membrane Formation
+                6.2.1.3.3 内皮细胞连接 | Endothelial Cell Junctions
+                6.2.1.3.4 血管通透性 | Vascular Permeability
+
+    6.3 基质细胞相互作用 | Stromal Cell Interactions
+        6.3.1 成纤维细胞活化 | Fibroblast Activation
+            6.3.1.1 活化标志物表达 | Expression of Activation Markers
+                6.3.1.1.1 α-SMA表达 | α‑SMA Expression
+                6.3.1.1.2 FAP表达 | FAP Expression
+                6.3.1.1.3 生长因子分泌 | Growth Factor Secretion
+                6.3.1.1.4 细胞外基质产生 | Extracellular Matrix Production
+            6.3.1.2 信号通路激活 | Activation of Signaling Pathways
+                6.3.1.2.1 TGF-β信号 | TGF‑β Signaling
+                6.3.1.2.2 PDGF信号 | PDGF Signaling
+                6.3.1.2.3 Wnt通路 | Wnt Pathway
+                6.3.1.2.4 Hedgehog通路 | Hedgehog Pathway
+            6.3.1.3 代谢重编程 | Metabolic Reprogramming
+                6.3.1.3.1 糖酵解增强 | Enhanced Glycolysis
+                6.3.1.3.2 氧化磷酸化 | Oxidative Phosphorylation
+                6.3.1.3.3 脂质代谢 | Lipid Metabolism
+                6.3.1.3.4 氨基酸代谢 | Amino Acid Metabolism
+
+    6.4 炎症因子网络 | Inflammatory Cytokine Network
+        6.4.1 细胞因子分泌 | Cytokine Secretion
+            6.4.1.1 促炎因子 | Pro‑inflammatory Factors
+                6.4.1.1.1 IL-6 | IL‑6
+                6.4.1.1.2 TNF-α | TNF‑α
+                6.4.1.1.3 IL-1β | IL‑1β
+                6.4.1.1.4 IFN-γ | IFN‑γ
+            6.4.1.2 抗炎因子 | Anti‑inflammatory Factors
+                6.4.1.2.1 IL-10 | IL‑10
+                6.4.1.2.2 TGF-β | TGF‑β
+                6.4.1.2.3 IL-4 | IL‑4
+                6.4.1.2.4 IL-13 | IL‑13
+            6.4.1.3 趋化因子 | Chemokines
+                6.4.1.3.1 CXCL12 | CXCL12
+                6.4.1.3.2 CCL2 | CCL2
+                6.4.1.3.3 CXCL8 | CXCL8
+                6.4.1.3.4 CCL5 | CCL5
+
+    6.5 细胞外基质重塑 | Extracellular Matrix Remodeling
+        6.5.1 基质蛋白合成 | Synthesis of Matrix Proteins
+            6.5.1.1 胶原蛋白 | Collagen
+                6.5.1.1.1 I型胶原 | Type I Collagen
+                6.5.1.1.2 III型胶原 | Type III Collagen
+                6.5.1.1.3 IV型胶原 | Type IV Collagen
+                6.5.1.1.4 交联修饰 | Crosslinking Modifications
+            6.5.1.2 弹性蛋白 | Elastin
+                6.5.1.2.1 弹性纤维形成 | Elastic Fiber Formation
+                6.5.1.2.2 微纤维组装 | Microfibril Assembly
+                6.5.1.2.3 基质稳定性 | Matrix Stability
+                6.5.1.2.4 力学特性 | Mechanical Properties
+            6.5.1.3 蛋白多糖 | Proteoglycans
+                6.5.1.3.1 透明质酸 | Hyaluronic Acid
+                6.5.1.3.2 硫酸软骨素 | Chondroitin Sulfate
+                6.5.1.3.3 硫酸乙酰肝素 | Heparan Sulfate
+                6.5.1.3.4 基质水合作用 | Matrix Hydration
+
+    6.6 肿瘤干细胞微环境 | Cancer Stem Cell Microenvironment
+        6.6.1 干细胞位点 | Stem Cell Niches
+            6.6.1.1 微环境因子 | Microenvironmental Factors
+                6.6.1.1.1 生长因子 | Growth Factors
+                6.6.1.1.2 细胞外基质 | Extracellular Matrix
+                6.6.1.1.3 血管分布 | Vascular Distribution
+                6.6.1.1.4 氧浓度 | Oxygen Concentration
+            6.6.1.2 调控信号 | Regulatory Signals
+                6.6.1.2.1 Notch通路 | Notch Pathway
+                6.6.1.2.2 Wnt信号 | Wnt信号
+                6.6.1.2.3 Hedgehog通路 | Hedgehog Pathway
+                6.6.1.2.4 Hippo通路 | Hippo Pathway
+            6.6.1.3 代谢特征 | Metabolic Features
+                6.6.1.3.1 糖代谢 | 糖代谢
+                6.6.1.3.2 脂质代谢 | Lipid Metabolism
+                6.6.1.3.3 氨基酸代谢 | Amino Acid Metabolism
+                6.6.1.3.4 氧化还原状态 | Redox Status
+
+7. 生物标志物 | Biomarkers
+ 7.1 预测性生物标志物 | Predictive Biomarkers
+     7.1.1 基因组标志物 | Genomic Biomarkers
+         7.1.1.1 基因突变 | Gene Mutations
+             7.1.1.1.1 RB1突变 | RB1 Mutation
+             7.1.1.1.2 TP53突变 | TP53 Mutation
+             7.1.1.1.3 ESR1突变 | ESR1 Mutation
+             7.1.1.1.4 PIK3CA突变 | PIK3CA Mutation
+         7.1.1.2 基因拷贝数 | Gene Copy Number
+             7.1.1.2.1 CDK4扩增 | CDK4 Amplification
+             7.1.1.2.2 CCND1扩增 | CCND1 Amplification
+             7.1.1.2.3 CDKN2A缺失 | CDKN2A Deletion
+             7.1.1.2.4 MDM2扩增 | MDM2 Amplification
+         7.1.1.3 基因融合 | Gene Fusions
+             7.1.1.3.1 ESR1融合 | ESR1 Fusion
+             7.1.1.3.2 BRAF融合 | BRAF Fusion
+             7.1.1.3.3 RET融合 | RET Fusion
+             7.1.1.3.4 ALK融合 | ALK Fusion
+
+    7.2 预后生物标志物 | Prognostic Biomarkers
+        7.2.1 蛋白表达 | Protein Expression
+            7.2.1.1 细胞周期蛋白 | Cell-cycle Proteins
+                7.2.1.1.1 Cyclin D1表达 | Cyclin D1 Expression
+                7.2.1.1.2 CDK4/6表达 | CDK4/6 Expression
+                7.2.1.1.3 p16表达 | p16 Expression
+                7.2.1.1.4 RB蛋白表达 | RB Protein Expression
+            7.2.1.2 信号通路蛋白 | Signaling Pathway Proteins
+                7.2.1.2.1 PI3K/AKT活性 | PI3K/AKT Activity
+                7.2.1.2.2 MAPK通路活性 | MAPK Pathway Activity
+                7.2.1.2.3 mTOR信号活性 | mTOR Signaling Activity
+                7.2.1.2.4 ER/PR状态 | ER/PR Status
+            7.2.1.3 免疫标志物 | Immune Biomarkers
+                7.2.1.3.1 PD-L1表达 | PD‑L1 Expression
+                7.2.1.3.2 肿瘤浸润淋巴细胞 | Tumor-infiltrating Lymphocytes
+                7.2.1.3.3 免疫检查点分子 | Immune Checkpoint Molecules
+                7.2.1.3.4 炎症因子水平 | Levels of Inflammatory Cytokines
+
+    7.3 药物反应监测 | Therapeutic Response Monitoring
+        7.3.1 药效学标志物 | Pharmacodynamic Biomarkers
+            7.3.1.1 细胞周期标志物 | Cell-cycle Biomarkers
+                7.3.1.1.1 Ki67指数 | Ki67 Index
+                7.3.1.1.2 pRB水平 | pRB Levels
+                7.3.1.1.3 E2F活性 | E2F Activity
+                7.3.1.1.4 细胞周期分布 | Cell-cycle Distribution
+            7.3.1.2 细胞死亡标志物 | Cell-death Biomarkers
+                7.3.1.2.1 凋亡标志物 | Apoptosis Markers
+                7.3.1.2.2 衰老标志物 | Senescence Markers
+                7.3.1.2.3 自噬标志物 | Autophagy Markers
+                7.3.1.2.4 坏死标志物 | Necrosis Markers
+            7.3.1.3 代谢标志物 | Metabolic Biomarkers
+                7.3.1.3.1 葡萄糖代谢 | Glucose Metabolism
+                7.3.1.3.2 线粒体功能 | Mitochondrial Function
+                7.3.1.3.3 脂质代谢 | Lipid Metabolism
+                7.3.1.3.4 氨基酸代谢 | Amino Acid Metabolism
+
+    7.4 分子分型标志物 | Molecular Subtype Biomarkers
+        7.4.1 转录组特征 | Transcriptomic Features
+            7.4.1.1 基因表达谱 | Gene Expression Profiles
+                7.4.1.1.1 细胞周期基因集 | Cell-cycle Gene Set
+                7.4.1.1.2 激素反应基因集 | Hormone-response Gene Set
+                7.4.1.1.3 免疫反应基因集 | Immune-response Gene Set
+                7.4.1.1.4 干细胞基因集 | Stem Cell Gene Set
+            7.4.1.2 分子亚型 | Molecular Subtypes
+                7.4.1.2.1 Luminal亚型 | Luminal Subtype
+                7.4.1.2.2 Basal样亚型 | Basal-like Subtype
+                7.4.1.2.3 HER2富集亚型 | HER2-enriched Subtype
+                7.4.1.2.4 正常样亚型 | Normal-like Subtype
+            7.4.1.3 通路活性 | Pathway Activity
+                7.4.1.3.1 增殖信号通路 | Proliferative Signaling Pathway
+                7.4.1.3.2 存活信号通路 | Survival Signaling Pathways
+                7.4.1.3.3 干细胞通路 | Stem Cell Pathways
+                7.4.1.3.4 代谢通路 | Metabolic Pathways
+
+    7.5 耐药监测标志物 | Resistance Monitoring Biomarkers
+        7.5.1 耐药基因标志物 | Resistance Gene Biomarkers
+            7.5.1.1 获得性耐药 | Acquired Resistance
+                7.5.1.1.1 ESR1突变 | ESR1 Mutation
+                7.5.1.1.2 RB1丢失 | RB1 Loss
+                7.5.1.1.3 CCNE1扩增 | CCNE1 Amplification
+                7.5.1.1.4 CDK6扩增 | CDK6 Amplification
+            7.5.1.2 原发性耐药 | Primary Resistance
+                7.5.1.2.1 CDKN2A缺失 | CDKN2A Deletion
+                7.5.1.2.2 p53功能缺失 | Loss of p53 Function
+                7.5.1.2.3 PI3K通路激活 | PI3K Pathway Activation
+                7.5.1.2.4 干细胞特征 | Stemness Features
+            7.5.1.3 耐药通路激活 | Activation of Resistance Pathways
+                7.5.1.3.1 旁路信号激活 | Bypass Signaling Activation
+                7.5.1.3.2 细胞存活通路 | Cell Survival Pathways
+                7.5.1.3.3 药物外排 | Drug Efflux
+                7.5.1.3.4 代谢重编程 | Metabolic Reprogramming
+
+    7.6 液体活检标志物 | Liquid Biopsy Biomarkers
+        7.6.1 循环肿瘤DNA | Circulating Tumor DNA
+            7.6.1.1 突变检测 | Mutation Detection
+                7.6.1.1.1 驱动基因突变 | Driver Gene Mutations
+                7.6.1.1.2 耐药突变 | Resistance Mutations
+                7.6.1.1.3 克隆进化 | Clonal Evolution
+                7.6.1.1.4 肿瘤负荷 | Tumor Burden
+            7.6.1.2 拷贝数变异 | Copy-number Variations
+                7.6.1.2.1 基因扩增 | Gene Amplification
+                7.6.1.2.2 基因缺失 | Gene Deletion
+                7.6.1.2.3 染色体不稳定性 | Chromosomal Instability
+                7.6.1.2.4 基因组重排 | Genomic Rearrangements
+            7.6.1.3 表观遗传改变 | Epigenetic Alterations
+                7.6.1.3.1 DNA甲基化 | DNA Methylation
+                7.6.1.3.2 组蛋白修饰 | Histone Modifications
+                7.6.1.3.3 染色质开放性 | Chromatin Accessibility
+                7.6.1.3.4 转录调控 | Transcriptional Regulation
+8. 临床应用 | Clinical Applications
+ 8.1 单药治疗策略 | Monotherapy Strategies
+     8.1.1 适应症选择 | Indication Selection
+         8.1.1.1 肿瘤类型 | Tumor Types
+             8.1.1.1.1 HR+/HER2-乳腺癌 | HR+/HER2‑ Breast Cancer
+             8.1.1.1.2 晚期实体瘤 | Advanced Solid Tumors
+             8.1.1.1.3 黑色素瘤 | Melanoma
+             8.1.1.1.4 软组织肉瘤 | Soft‑tissue Sarcoma
+         8.1.1.2 治疗线别 | Line of Therapy
+             8.1.1.2.1 一线治疗 | First‑line Therapy
+             8.1.1.2.2 二线治疗 | Second‑line Therapy
+             8.1.1.2.3 三线及以上 | Third‑line and Beyond
+             8.1.1.2.4 维持治疗 | Maintenance Therapy
+         8.1.1.3 患者选择 | Patient Selection
+             8.1.1.3.1 生物标志物状态 | Biomarker Status
+             8.1.1.3.2 既往治疗史 | Prior Treatment History
+             8.1.1.3.3 合并症评估 | Comorbidity Assessment
+             8.1.1.3.4 耐受性评估 | Tolerability Assessment
+
+    8.2 联合用药方案 | Combination Therapy Regimens
+        8.2.1 内分泌治疗联合 | Endocrine‑therapy Combination
+            8.2.1.1 联合芳香化酶抑制剂 | Combination with Aromatase Inhibitors
+                8.2.1.1.1 来曲唑 | Letrozole
+                8.2.1.1.2 阿那曲唑 | Anastrozole
+                8.2.1.1.3 依西美坦 | Exemestane
+                8.2.1.1.4 剂量调整策略 | Dose Adjustment Strategy
+            8.2.1.2 联合降雌激素药物 | Combination with Estrogen‑lowering Agents
+                8.2.1.2.1 氟维司群 | Fulvestrant
+                8.2.1.2.2 他莫昔芬 | Tamoxifen
+                8.2.1.2.3 卵巢功能抑制 | Ovarian Function Suppression
+                8.2.1.2.4 时序优化 | Sequencing Optimization
+            8.2.1.3 疗效监测 | Efficacy Monitoring
+                8.2.1.3.1 影像学评估 | Imaging Assessment
+                8.2.1.3.2 生物标志物监测 | Biomarker Monitoring
+                8.2.1.3.3 临床症状评估 | Clinical Symptom Assessment
+                8.2.1.3.4 生活质量评估 | Quality‑of‑life Assessment
+
+    8.3 剂量优化 | Dose Optimization
+        8.3.1 剂量调整策略 | Dose Adjustment Strategy
+            8.3.1.1 起始剂量选择 | Initial Dose Selection
+                8.3.1.1.1 标准剂量 | Standard Dose
+                8.3.1.1.2 个体化调整 | Individualized Adjustment
+                8.3.1.1.3 特殊人群考虑 | Special‑population Considerations
+                8.3.1.1.4 基线评估 | Baseline Assessment
+            8.3.1.2 不良反应管理 | Adverse‑event Management
+                8.3.1.2.1 剂量减少 | Dose Reduction
+                8.3.1.2.2 暂停用药 | Treatment Interruption
+                8.3.1.2.3 支持治疗 | Supportive Care
+                8.3.1.2.4 再次挑战 | Re‑challenge
+            8.3.1.3 疗程调整 | Schedule Adjustment
+                8.3.1.3.1 给药周期 | Dosing Cycle
+                8.3.1.3.2 治疗间歇 | Treatment Intermission
+                8.3.1.3.3 疗程延长 | Course Extension
+                8.3.1.3.4 治疗终止 | Therapy Discontinuation
+
+    8.4 不良反应管理 | Adverse‑event Management
+        8.4.1 常见不良反应 | Common Adverse Events
+            8.4.1.1 血液学毒性 | Hematologic Toxicity
+                8.4.1.1.1 中性粒细胞减少 | Neutropenia
+                8.4.1.1.2 贫血 | Anemia
+                8.4.1.1.3 血小板减少 | Thrombocytopenia
+                8.4.1.1.4 感染风险 | Infection Risk
+            8.4.1.2 非血液学毒性 | Non‑hematologic Toxicity
+                8.4.1.2.1 胃肠道反应 | Gastrointestinal Reactions
+                8.4.1.2.2 肝功能异常 | Hepatic Dysfunction
+                8.4.1.2.3 疲劳 | Fatigue
+                8.4.1.2.4 皮肤反应 | Cutaneous Reactions
+            8.4.1.3 预防和处理 | Prevention and Management
+                8.4.1.3.1 预防措施 | Preventive Measures
+                8.4.1.3.2 支持治疗 | Supportive Care
+                8.4.1.3.3 剂量调整 | 剂量调整
+                8.4.1.3.4 长期管理 | Long‑term Management
+
+    8.5 治疗监测 | Treatment Monitoring
+        8.5.1 疗效评估 | Efficacy Assessment
+            8.5.1.1 影像学评估 | Imaging Assessment
+                8.5.1.1.1 CT扫描 | CT Scan
+                8.5.1.1.2 MRI检查 | MRI Examination
+                8.5.1.1.3 PET-CT | PET‑CT
+                8.5.1.1.4 RECIST标准 | RECIST Criteria
+            8.5.1.2 生物标志物监测 | Biomarker Monitoring
+                8.5.1.2.1 循环肿瘤DNA | Circulating Tumor DNA
+                8.5.1.2.2 肿瘤标志物 | Tumor Markers
+                8.5.1.2.3 激素水平 | Hormone Levels
+                8.5.1.2.4 药物浓度 | Drug Concentration
+            8.5.1.3 临床评估 | Clinical Assessment
+                8.5.1.3.1 症状改善 | Symptom Improvement
+                8.5.1.3.2 体能状态 | Performance Status
+                8.5.1.3.3 生活质量 | Quality of Life
+                8.5.1.3.4 长期预后 | Long‑term Prognosis
+
+    8.6 随访评估 | Follow‑up Evaluation
+        8.6.1 随访计划 | Follow‑up Plan
+            8.6.1.1 随访时间点 | Follow‑up Time‑points
+                8.6.1.1.1 早期随访 | Early Follow‑up
+                8.6.1.1.2 定期随访 | Routine Follow‑up
+                8.6.1.1.3 长期随访 | Long‑term Follow‑up
+                8.6.1.1.4 特殊情况 | Special Circumstances
+            8.6.1.2 评估内容 | Assessment Items
+                8.6.1.2.1 疾病状态 | Disease Status
+                8.6.1.2.2 不良反应 | Adverse Events
+                8.6.1.2.3 生活质量 | Quality of Life
+                8.6.1.2.4 治疗依从性 | Treatment Adherence
+            8.6.1.3 预后评估 | Prognostic Assessment
+                8.6.1.3.1 无进展生存期 | Progression‑free Survival
+                8.6.1.3.2 总生存期 | Overall Survival
+                8.6.1.3.3 复发风险 | Risk of Recurrence
+                8.6.1.3.4 生存质量 | Quality of Survival
+
+
