@@ -10,10 +10,12 @@ import matplotlib.pyplot as plt
 from venn import venn
 import re
 from graphviz import Digraph
-import requests  # 用于向本地 FastAPI 请求 JSON
+import requests  # 用于向本地/远端 FastAPI 请求 JSON
+
 ################################################################################
 # --------------------------  FUNCTIONS & HELPERS  ----------------------------
 ################################################################################
+
 @st.cache_data(show_spinner=False)
 def load_csv(path: Path):
     """
@@ -35,6 +37,7 @@ def load_excel(path: Path):
 def build_dot_with_links(lines):
     """
     根据 knowledge_map.txt 的行，构造一个有 URL 链接的 Graphviz 图。
+    每个节点形如 "1.2.3.4 说明文字"，点击节点会在 URL 上附加 ?node=1.2.3.4
     """
     dot = Digraph(format='svg')
     dot.attr(
@@ -79,9 +82,34 @@ def build_dot_with_links(lines):
 
     return dot
 
+def filter_by_node_code(df: pd.DataFrame, selected_code: str) -> pd.DataFrame:
+    """
+    根据 selected_code 里面的“.”数量（即层级），选择相应的标签列来做 == 筛选。
+    例如：
+      selected_code="1"               → 一级节点，选 df["一级标签"] == selected_code
+      selected_code="1.2"             → 二级节点，选 df["二级标签"] == selected_code
+      selected_code="1.2.3"           → 三级节点，选 df["三级标签"] == selected_code
+      selected_code="1.2.3.4"         → 四级节点，选 df["四级标签"] == selected_code
+      selected_code="1.2.3.4.5"       → 五级节点，选 df["五级标签"] == selected_code
+    如果 df 中没有对应列，则返回空 DataFrame。
+    """
+    depth = selected_code.count(".") + 1
+    col_map = {
+        1: "一级标签",
+        2: "二级标签",
+        3: "三级标签",
+        4: "四级标签",
+        5: "五级标签"
+    }
+    col_name = col_map.get(depth)
+    if col_name is None or col_name not in df.columns:
+        return df.iloc[0:0]
+    return df[df[col_name] == selected_code]
+
 ################################################################################
 # -----------------------------  PAGE SETTINGS  --------------------------------
 ################################################################################
+
 st.set_page_config(
     page_title="CDK4/6 Knowledge-Base | CDK4/6 知识库",
     page_icon="🧬",
@@ -99,9 +127,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-################################################################################
-# -----------------------------  NAVIGATION  -----------------------------------
-################################################################################
 page = st.sidebar.radio("选择模块 | Select Module", [
     "1. Statistics | 统计信息",
     "2. Global Network | 全局网络",
@@ -153,11 +178,11 @@ if page.startswith("1."):
         st.info("请将 stats.png 放到 raw_data/1.stats/ 下 (Please place stats.png into raw_data/1.stats/)。")
 
     # 点击知识图谱节点以后，用 ?node=xxx 来筛选 table
-    params   = st.experimental_get_query_params()
+    params   = st.query_params
     selected = params.get("node", [None])[0]
     if selected:
         st.markdown(f"**🔍 已选节点：{selected} | Selected Node: {selected}**")
-        df_sel = df[df["四级标签"] == selected]
+        df_sel = filter_by_node_code(df, selected)
         if not df_sel.empty:
             st.dataframe(df_sel, use_container_width=True, hide_index=True)
         else:
@@ -179,7 +204,7 @@ if page.startswith("1."):
 elif page.startswith("2."):
     st.header("🌐 Global Gene Co-Occurrence Network | 全局基因共现网络")
 
-    # —— 1. 先渲染全局大图 (与已有逻辑一致) ——
+    # —— 1. 先渲染全局大图 (与已有逻辑一致，但不显示图例) ——
     cyjs_fp = DATA_DIR / "network" / "network_full.cyjs"
     if not cyjs_fp.exists():
         st.error("❌ 找不到 network_full.cyjs，请先跑 scripts/build_data.py 导入它 (network_full.cyjs not found; please run scripts/build_data.py to import it)。")
@@ -212,6 +237,8 @@ elif page.startswith("2."):
         }
     ]
     cfg_json = json.dumps(cfg)
+
+    # 渲染全局大图（无图例）
     html_full = f"""
     <div id="cy_global" style="width:100%; height:60vh; border:1px solid #e0e0e0;"></div>
     <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
@@ -235,7 +262,7 @@ elif page.startswith("2."):
 
     # 2.2 让用户在输入框里输入关键词
     term = st.text_input(
-        f"输入 {col_choice} 关键词（支持模糊匹配），按 Enter 键搜索 | Enter keyword for {col_choice} (fuzzy matching, press Enter):",
+        f"输入 `{col_choice}` 关键词（支持模糊匹配），按 Enter 键搜索 | Enter keyword for `{col_choice}` (fuzzy matching, press Enter):",
         placeholder="例如 / e.g.: CDK4"
     ).strip()
 
@@ -251,10 +278,10 @@ elif page.startswith("2."):
         actual_col = col_choice.split("|")[0].strip()
         df_filt = df_kb[df_kb[actual_col].astype(str).str.contains(term, case=False, na=False)]
         if df_filt.empty:
-            st.warning(f"未找到在 {actual_col} 列中包含 “{term}” 的任何记录 | No records found in {actual_col} containing “{term}.")
+            st.warning(f"未找到在 `{actual_col}` 列中包含 “{term}” 的任何记录 | No records found in `{actual_col}` containing “{term}`.")
             st.stop()
         else:
-            st.success(f"🔍 找到 {len(df_filt)} 条记录。（{actual_col} 中包含 “{term}”） | Found {len(df_filt)} record(s) where {actual_col} contains {term}.")
+            st.success(f"🔍 找到 {len(df_filt)} 条记录。（`{actual_col}` 中包含 “{term}”） | Found {len(df_filt)} record(s) where `{actual_col}` contains `{term}`.")
             st.dataframe(df_filt, use_container_width=True, hide_index=True)
 
         # —— 3. 构建子网元素 ——
@@ -352,10 +379,84 @@ elif page.startswith("2."):
             }
         ]
 
-        # —— 5. 渲染子网 (Circle 布局) ——
+        # —— 5. 渲染子网 (Circle 布局) 并加图例 ——
         st.markdown("#### 匹配项的子网络 (Circle 布局) | Subnetwork of Matching Terms (Circle Layout)")
         html_sub = f"""
-        <div id="cy_subnet" style="width:100%; height:400px; border:1px solid #e0e0e0; margin-bottom:8px;"></div>
+        <!-- 父容器，relative 定位 -->
+        <div style="position: relative; width:100%; height:400px; border:1px solid #e0e0e0;">
+
+          <!-- Cytoscape 子网画布 -->
+          <div id="cy_subnet" style="position:absolute; top:0; left:0; width:100%; height:100%;"></div>
+
+          <!-- 右上角图例 -->
+          <div style="
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background: rgba(255, 255, 255, 0.85);
+                padding: 6px;
+                border-radius: 5px;
+                font-size: 11px;
+                box-shadow: 0 0 4px rgba(0,0,0,0.15);
+            ">
+            <strong>Legend | 图例</strong>
+            <div style="margin-top: 5px;">
+              <div style="display:flex; align-items:center; margin-bottom:3px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background:#FFFFCC;
+                    border-radius:50%;
+                    margin-right:5px;
+                "></span>
+                Gene Symbol
+              </div>
+              <div style="display:flex; align-items:center; margin-bottom:3px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background:#EC7014;
+                    transform: rotate(45deg);
+                    margin-right:5px;
+                "></span>
+                Cell type
+              </div>
+              <div style="display:flex; align-items:center; margin-bottom:3px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:6px;
+                    background:#8C6BB1;
+                    border-radius:3px;
+                    margin-right:5px;
+                "></span>
+                Disease
+              </div>
+              <div style="display:flex; align-items:center; margin-bottom:3px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background:#41AB5D;
+                    margin-right:5px;
+                "></span>
+                Drugs
+              </div>
+              <div style="display:flex; align-items:center;">
+                <span style="
+                    display:inline-block;
+                    width:0; height:0;
+                    border-left:5px solid transparent;
+                    border-right:5px solid transparent;
+                    border-bottom:10px solid #4EB3D3;
+                    margin-right:5px;
+                "></span>
+                Pathway
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 引入 Cytoscape.js 并初始化 -->
         <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
         <script>
           var cy = cytoscape({{
@@ -365,7 +466,7 @@ elif page.startswith("2."):
             layout: {{
               name:    'circle',
               fit:     true,
-              padding: 80
+              padding: 50
             }},
             wheelSensitivity: 0.2
           }});
@@ -390,9 +491,9 @@ elif page.startswith("2."):
             )
             df_second = df_filt[mask]
             if df_second.empty:
-                st.warning(f"⚠ 二次筛选后，没有找到任何在 5 列中包含 “{chosen_node}” 的记录 | No records found in any of the 5 columns containing {chosen_node} after secondary filtering.")
+                st.warning(f"⚠ 二次筛选后，没有找到任何在 5 列中包含 “{chosen_node}” 的记录 | No records found in any of the 5 columns containing `{chosen_node}` after secondary filtering.")
             else:
-                st.markdown(f"**二次筛选结果：在已匹配 {term} 且 {actual_col} 列中的记录里，包含节点 {chosen_node} 的行如下 | Secondary filtering result: Rows containing node {chosen_node} in records where {actual_col} contains {term}:**")
+                st.markdown(f"**二次筛选结果：在已匹配 `{term}` 且 `{actual_col}` 列中的记录里，包含节点 `{chosen_node}` 的行如下 | Secondary filtering result: Rows containing node `{chosen_node}` in records where `{actual_col}` contains `{term}`:**")
                 st.dataframe(df_second, use_container_width=True, hide_index=True)
         else:
             st.info("👉 上方的下拉列表中选择一个节点来查看二级过滤结果 | Select a node above to view secondary filtering results here.")
@@ -412,33 +513,29 @@ elif page.startswith("3."):
     top_sets = {}
     for fp in files:
         fp_path = Path(fp)
-        df = load_csv(fp_path)
-        if df is None:
+        df_c = load_csv(fp_path)
+        if df_c is None:
             st.warning(f"⚠ 无法加载文件 {fp_path.name}，请检查路径或文件名 | Cannot load file {fp_path.name}.")
             continue
 
         # —— 自动识别“基因列”和“数值列” ——
-        cols = df.columns.tolist()
-        # 常见：第一列是基因名，可能叫 "shared name" 或 "Shared name"；其余列里可能包含 "(Weight)" 或者直接就是指标名
-        # 我们先在 cols 里找 “shared name” （大小写不敏感）
+        cols = df_c.columns.tolist()
         gene_col = None
         for c in cols:
             if c.lower() == "shared name":
                 gene_col = c
                 break
         if gene_col is None:
-            # 如果没找到 "shared name"，就把第一列当作基因列
             gene_col = cols[0]
 
-        # 数值列就是除了 gene_col 外的剩下第一列
         val_cols = [c for c in cols if c != gene_col]
         if not val_cols:
             st.warning(f"⚠ 在文件 {fp_path.name} 中找不到数值列，请检查列名 | No value column found in {fp_path.name}.")
             continue
-        val_col = val_cols[0]  # 取第一个数值列
+        val_col = val_cols[0]
 
         # 重命名为统一的 "gene" 和 "value"
-        df2 = df[[gene_col, val_col]].rename(columns={gene_col: "gene", val_col: "value"})
+        df2 = df_c[[gene_col, val_col]].rename(columns={gene_col: "gene", val_col: "value"})
         metric_name = val_col.replace("_", " ").replace("(Weight)", "").strip().title()
         st.subheader(f"{metric_name} (Top 30)")
 
@@ -480,13 +577,13 @@ elif page.startswith("3."):
         lines2 = km2.read_text(encoding="utf-8").splitlines()
         dot2   = build_dot_with_links(lines2)
 
-        params = st.experimental_get_query_params()
+        params = st.query_params
         sel    = params.get("node", [None])[0]
         if sel:
             st.markdown(f"**🔍 在 Statistics 表中定位：{sel} | Locate in Statistics table: {sel}**")
             df_stats = load_csv(DATA_DIR / "stats" / "cdk4_6_kb.csv")
             if df_stats is not None:
-                df_f = df_stats[df_stats["四级标签"] == sel]
+                df_f = filter_by_node_code(df_stats, sel)
                 if not df_f.empty:
                     st.dataframe(df_f, use_container_width=True, hide_index=True)
                 else:
@@ -537,24 +634,93 @@ elif page.startswith("4."):
             st.subheader("Edges Preview | 边预览")
             st.dataframe(df_edges, height=250, use_container_width=True)
     else:
-        st.info("提示：未找到 organic_nodes.xlsx 或 organic_edges.xlsx，仅展示网络可视化。")
+        st.info("提示：未找到 `organic_nodes.xlsx` 或 `organic_edges.xlsx`，仅展示网络可视化。")
 
     # —— 3. 整理从 API 拿到的 style_all JSON ——
-    # 有两种常见结构：
-    #   A) style_all 是一个列表，第一项里有 "style" 字段：[{ "formatVersion": "...", "style": [ {...}, ... ] }, …]
-    #   B) style_all 直接就是 Cytoscape 样式数组：[{ "selector": "...", "style": { … } }, …]
     if isinstance(style_all, list) and len(style_all) > 0 and isinstance(style_all[0], dict) and "style" in style_all[0]:
         style_cfg = style_all[0]["style"]
     else:
         style_cfg = style_all
 
-    # —— 4. 渲染 Cytoscape（只用 preset 布局，不加载 cose-bilkent） ——
-    #    preset 布局会使用 .cyjs 文件里导出的坐标。这样保证你在 Cytoscape Desktop 调好的样式、位置能“原样”搬到浏览器。
+    # —— 4. 渲染 Cytoscape（带与子网相同的图例） ——
     html = f"""
-    <div id='cyf' style='width:100%; height:75vh; border:1px solid #e0e0e0;'></div>
+    <!-- 父容器，relative 定位 -->
+    <div style="position: relative; width:100%; height:75vh; border:1px solid #e0e0e0;">
+
+      <!-- Cytoscape 主容器 -->
+      <div id='cyf' style="position:absolute; top:0; left:0; width:100%; height:100%;"></div>
+
+      <!-- 右上角图例，复用子网“匹配项”中的样式 -->
+      <div style="
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.85);
+            padding: 6px;
+            border-radius: 5px;
+            font-size: 11px;
+            box-shadow: 0 0 4px rgba(0,0,0,0.15);
+        ">
+        <strong>Legend | 图例</strong>
+        <div style="margin-top: 5px;">
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:10px;
+                background:#FFFFCC;
+                border-radius:50%;
+                margin-right:5px;
+            "></span>
+            Gene Symbol
+          </div>
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:10px;
+                background:#EC7014;
+                transform: rotate(45deg);
+                margin-right:5px;
+            "></span>
+            Cell type
+          </div>
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:6px;
+                background:#8C6BB1;
+                border-radius:3px;
+                margin-right:5px;
+            "></span>
+            Disease
+          </div>
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:10px;
+                background:#41AB5D;
+                margin-right:5px;
+            "></span>
+            Drugs
+          </div>
+          <div style="display:flex; align-items:center;">
+            <span style="
+                display:inline-block;
+                width:0; height:0;
+                border-left:5px solid transparent;
+                border-right:5px solid transparent;
+                border-bottom:10px solid #4EB3D3;
+                margin-right:5px;
+            "></span>
+            Pathway
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 引入 Cytoscape.js 并初始化 -->
     <script src='https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js'></script>
     <script>
-      // 初始化 Cytoscape
       var cy = cytoscape({{
         container: document.getElementById('cyf'),
         elements: {json.dumps(cy_elems)},
@@ -566,6 +732,7 @@ elif page.startswith("4."):
     """
     st.markdown("#### Organic Subnetwork | 有机子网络")
     components.html(html, height=680, scrolling=True)
+
 ################################################################################
 # -----------------------  5. SUBTYPE NETWORKS TAB  ----------------------------
 ################################################################################
@@ -598,7 +765,6 @@ else:
     key = key_map[eng_part]  # 比如 "luminal_original"
 
     # —— 1. 先获取 nodes.csv 和 edges.csv 的预览（可选） ——
-    #     下面演示直接本地加载，若想统一使用 API，也可以改成 requests.get("/api/subtype/.../nodes").json()
     nodes_fp = Path("data/subtype") / f"{key}_nodes.csv"
     edges_fp = Path("data/subtype") / f"{key}_edges.csv"
     if not (nodes_fp.exists() and edges_fp.exists()):
@@ -616,15 +782,14 @@ else:
         st.dataframe(df_edges, height=250, use_container_width=True)
 
     # —— 2. 调用 API 拿交互网络（cyjs）和样式 ——
-    # 注意：下面所有 requests.get 都要调用 .json()，不要用 .text()，否则拿到的是字符串类型。
     base_url = "https://cdk46kb.onrender.com/api/subtype"
 
     # 2.1 拿 elements（节点+边）
     try:
         resp_elem = requests.get(f"{base_url}/{key}/elements")
         resp_elem.raise_for_status()
-        elem_dict = resp_elem.json()  # 一定要 .json() 变成 Python dict
-        elements = elem_dict.get("elements", [])  # 得到一个列表
+        elem_dict = resp_elem.json()
+        elements = elem_dict.get("elements", [])
     except Exception as e:
         st.error(f"❌ 无法从 API 获取 /api/subtype/{key}/elements：{e}")
         st.stop()
@@ -633,9 +798,7 @@ else:
     try:
         resp_style = requests.get(f"{base_url}/{key}/style")
         resp_style.raise_for_status()
-        style_data = resp_style.json()  # 一定要 .json()，否则 style_data 还是 str
-        # style_data 可能是一个列表 [ { "style": [...] } ] 或者直接就是一个样式数组
-        # 如果返回的是 [{"style": [...]}, …] 这种形式，就要把真正的列表取出来
+        style_data = resp_style.json()
         if isinstance(style_data, list) and style_data and isinstance(style_data[0], dict) and "style" in style_data[0]:
             style_list = style_data[0]["style"]
         else:
@@ -652,11 +815,9 @@ else:
             "height": 60
         }
     }
-    # style_list 一定要是 Python 列表，才能调用 insert()
     if isinstance(style_list, list):
         style_list.insert(0, universal_size)
     else:
-        # 万一 style_list 解析后也是字符串，就给个兜底提示
         st.error("❌ 从 API 返回的 style 不是列表，无法插入 universal_size。")
         st.stop()
 
