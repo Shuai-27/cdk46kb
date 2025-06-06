@@ -235,7 +235,7 @@ elif page.startswith("2."):
 
     # 2.2 让用户在输入框里输入关键词
     term = st.text_input(
-        f"输入 `{col_choice}` 关键词（支持模糊匹配），按 Enter 键搜索 | Enter keyword for `{col_choice}` (fuzzy matching, press Enter):",
+        f"输入 {col_choice} 关键词（支持模糊匹配），按 Enter 键搜索 | Enter keyword for {col_choice} (fuzzy matching, press Enter):",
         placeholder="例如 / e.g.: CDK4"
     ).strip()
 
@@ -251,10 +251,10 @@ elif page.startswith("2."):
         actual_col = col_choice.split("|")[0].strip()
         df_filt = df_kb[df_kb[actual_col].astype(str).str.contains(term, case=False, na=False)]
         if df_filt.empty:
-            st.warning(f"未找到在 `{actual_col}` 列中包含 “{term}” 的任何记录 | No records found in `{actual_col}` containing “{term}`.")
+            st.warning(f"未找到在 {actual_col} 列中包含 “{term}” 的任何记录 | No records found in {actual_col} containing “{term}.")
             st.stop()
         else:
-            st.success(f"🔍 找到 {len(df_filt)} 条记录。（`{actual_col}` 中包含 “{term}”） | Found {len(df_filt)} record(s) where `{actual_col}` contains `{term}`.")
+            st.success(f"🔍 找到 {len(df_filt)} 条记录。（{actual_col} 中包含 “{term}”） | Found {len(df_filt)} record(s) where {actual_col} contains {term}.")
             st.dataframe(df_filt, use_container_width=True, hide_index=True)
 
         # —— 3. 构建子网元素 ——
@@ -390,9 +390,9 @@ elif page.startswith("2."):
             )
             df_second = df_filt[mask]
             if df_second.empty:
-                st.warning(f"⚠ 二次筛选后，没有找到任何在 5 列中包含 “{chosen_node}” 的记录 | No records found in any of the 5 columns containing `{chosen_node}` after secondary filtering.")
+                st.warning(f"⚠ 二次筛选后，没有找到任何在 5 列中包含 “{chosen_node}” 的记录 | No records found in any of the 5 columns containing {chosen_node} after secondary filtering.")
             else:
-                st.markdown(f"**二次筛选结果：在已匹配 `{term}` 且 `{actual_col}` 列中的记录里，包含节点 `{chosen_node}` 的行如下 | Secondary filtering result: Rows containing node `{chosen_node}` in records where `{actual_col}` contains `{term}`:**")
+                st.markdown(f"**二次筛选结果：在已匹配 {term} 且 {actual_col} 列中的记录里，包含节点 {chosen_node} 的行如下 | Secondary filtering result: Rows containing node {chosen_node} in records where {actual_col} contains {term}:**")
                 st.dataframe(df_second, use_container_width=True, hide_index=True)
         else:
             st.info("👉 上方的下拉列表中选择一个节点来查看二级过滤结果 | Select a node above to view secondary filtering results here.")
@@ -504,21 +504,21 @@ elif page.startswith("4."):
     # —— 1. 调用 REST API 拿到 elements 和 style ——
     try:
         # 读取节点/边列表数据
-        resp_elems = requests.get("http://localhost:8000/api/organic/elements")
+        resp_elems = requests.get("https://cdk46kb.onrender.com/api/organic/elements")
         resp_elems.raise_for_status()
         data_elems = resp_elems.json()
         cy_elems = data_elems.get("elements", [])
 
         # 读取样式配置
-        resp_style = requests.get("http://localhost:8000/api/organic/style")
+        resp_style = requests.get("https://cdk46kb.onrender.com/api/organic/style")
         resp_style.raise_for_status()
         style_all = resp_style.json()
     except Exception as e:
         st.warning(
             "❗ 无法从 API 获取 Organic Framework 数据，请确认：\n"
-            "  • FastAPI 服务已启动并监听在 http://localhost:8000\n"
-            "  • GET http://localhost:8000/api/organic/elements 能返回 { \"elements\": […] }\n"
-            "  • GET http://localhost:8000/api/organic/style 能返回 Cytoscape 样式数组\n\n"
+            "  • FastAPI 服务已启动并监听在 https://cdk46kb.onrender.com\n"
+            "  • GET https://cdk46kb.onrender.com/api/organic/elements 能返回 { \"elements\": […] }\n"
+            "  • GET https://cdk46kb.onrender.com/api/organic/style 能返回 Cytoscape 样式数组\n\n"
             f"错误详情: {e}"
         )
         st.stop()
@@ -537,7 +537,7 @@ elif page.startswith("4."):
             st.subheader("Edges Preview | 边预览")
             st.dataframe(df_edges, height=250, use_container_width=True)
     else:
-        st.info("提示：未找到 `organic_nodes.xlsx` 或 `organic_edges.xlsx`，仅展示网络可视化。")
+        st.info("提示：未找到 organic_nodes.xlsx 或 organic_edges.xlsx，仅展示网络可视化。")
 
     # —— 3. 整理从 API 拿到的 style_all JSON ——
     # 有两种常见结构：
@@ -617,7 +617,7 @@ else:
 
     # —— 2. 调用 API 拿交互网络（cyjs）和样式 ——
     # 注意：下面所有 requests.get 都要调用 .json()，不要用 .text()，否则拿到的是字符串类型。
-    base_url = "http://localhost:8000/api/subtype"
+    base_url = "https://cdk46kb.onrender.com/api/subtype"
 
     # 2.1 拿 elements（节点+边）
     try:
