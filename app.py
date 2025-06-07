@@ -600,13 +600,11 @@ elif page.startswith("4."):
 
     # —— 1. 调用 REST API 拿到 elements 和 style ——
     try:
-        # 读取节点/边列表数据
         resp_elems = requests.get("https://cdk46kb.onrender.com/api/organic/elements")
         resp_elems.raise_for_status()
         data_elems = resp_elems.json()
         cy_elems = data_elems.get("elements", [])
 
-        # 读取样式配置
         resp_style = requests.get("https://cdk46kb.onrender.com/api/organic/style")
         resp_style.raise_for_status()
         style_all = resp_style.json()
@@ -620,7 +618,7 @@ elif page.startswith("4."):
         )
         st.stop()
 
-    # —— 2. 如果需要，也可以把本地节点/边表格预览给用户看 ——
+    # —— 2. （可选）预览本地节点/边表格 ——
     nodes_fp = DATA_DIR / "organic" / "organic_nodes.xlsx"
     edges_fp = DATA_DIR / "organic" / "organic_edges.xlsx"
     if nodes_fp.exists() and edges_fp.exists():
@@ -634,15 +632,15 @@ elif page.startswith("4."):
             st.subheader("Edges Preview | 边预览")
             st.dataframe(df_edges, height=250, use_container_width=True)
     else:
-        st.info("提示：未找到 `organic_nodes.xlsx` 或 `organic_edges.xlsx`，仅展示网络可视化。")
+        st.info("提示：未找到 organic_nodes.xlsx 或 organic_edges.xlsx，仅展示网络可视化。")
 
-    # —— 3. 整理从 API 拿到的 style_all JSON ——
-    if isinstance(style_all, list) and len(style_all) > 0 and isinstance(style_all[0], dict) and "style" in style_all[0]:
+    # —— 3. 整理 style_all JSON ——
+    if isinstance(style_all, list) and style_all and isinstance(style_all[0], dict) and "style" in style_all[0]:
         style_cfg = style_all[0]["style"]
     else:
         style_cfg = style_all
 
-    # —— 4. 渲染 Cytoscape（有图例，复用与子网“匹配项”相同的图例） ——
+    # —— 4. 渲染 Cytoscape（复用匹配项子网的多色图例） ——
     html = f"""
     <!-- 父容器，relative 定位 -->
     <div style="position: relative; width:100%; height:75vh; border:1px solid #e0e0e0;">
@@ -650,7 +648,7 @@ elif page.startswith("4."):
       <!-- Cytoscape 主容器 -->
       <div id='cyf' style="position:absolute; top:0; left:0; width:100%; height:100%;"></div>
 
-      <!-- 右上角图例 -->
+      <!-- 右上角图例：复制自匹配项子网 -->
       <div style="
             position: absolute;
             top: 10px;
@@ -663,24 +661,60 @@ elif page.startswith("4."):
         ">
         <strong>Legend | 图例</strong>
         <div style="margin-top: 5px;">
+          <!-- Gene Symbol -->
           <div style="display:flex; align-items:center; margin-bottom:3px;">
             <span style="
                 display:inline-block;
                 width:10px; height:10px;
-                background:#BBBBBB;
+                background:#FFFFCC;
                 border-radius:50%;
                 margin-right:5px;
             "></span>
-            Organic Node
+            Gene Symbol
           </div>
+          <!-- Cell type -->
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:10px;
+                background:#EC7014;
+                transform: rotate(45deg);
+                margin-right:5px;
+            "></span>
+            Cell type
+          </div>
+          <!-- Disease -->
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:6px;
+                background:#8C6BB1;
+                border-radius:3px;
+                margin-right:5px;
+            "></span>
+            Disease
+          </div>
+          <!-- Drugs -->
+          <div style="display:flex; align-items:center; margin-bottom:3px;">
+            <span style="
+                display:inline-block;
+                width:10px; height:10px;
+                background:#41AB5D;
+                margin-right:5px;
+            "></span>
+            Drugs
+          </div>
+          <!-- Pathway -->
           <div style="display:flex; align-items:center;">
             <span style="
                 display:inline-block;
-                width:2px; height:10px;
-                background:#CCCCCC;
+                width:0; height:0;
+                border-left:5px solid transparent;
+                border-right:5px solid transparent;
+                border-bottom:10px solid #4EB3D3;
                 margin-right:5px;
             "></span>
-            Organic Edge
+            Pathway
           </div>
         </div>
       </div>
@@ -688,7 +722,7 @@ elif page.startswith("4."):
     </div>
 
     <!-- 引入 Cytoscape.js 并初始化 -->
-    <script src='https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js'></script>
+    <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
     <script>
       var cy = cytoscape({{
         container: document.getElementById('cyf'),
@@ -701,7 +735,6 @@ elif page.startswith("4."):
     """
     st.markdown("#### Organic Subnetwork | 有机子网络")
     components.html(html, height=680, scrolling=True)
-
 ################################################################################
 # -----------------------  5. SUBTYPE NETWORKS TAB  ----------------------------
 ################################################################################
