@@ -601,21 +601,21 @@ elif page.startswith("4."):
     # —— 1. 调用 REST API 拿到 elements 和 style ——
     try:
         # 读取节点/边列表数据
-        resp_elems = requests.get("https://cdk46kb.onrender.com/api/organic/elements")
+        resp_elems = requests.get("https://cdk46kb-backend.onrender.com/api/organic/elements")
         resp_elems.raise_for_status()
         data_elems = resp_elems.json()
         cy_elems = data_elems.get("elements", [])
 
         # 读取样式配置
-        resp_style = requests.get("https://cdk46kb.onrender.com/api/organic/style")
+        resp_style = requests.get("https://cdk46kb-backend.onrender.com/api/organic/style")
         resp_style.raise_for_status()
         style_all = resp_style.json()
     except Exception as e:
         st.warning(
             "❗ 无法从 API 获取 Organic Framework 数据，请确认：\n"
-            "  • FastAPI 服务已启动并监听在 https://cdk46kb.onrender.com\n"
-            "  • GET https://cdk46kb.onrender.com/api/organic/elements 能返回 { \"elements\": […] }\n"
-            "  • GET https://cdk46kb.onrender.com/api/organic/style 能返回 Cytoscape 样式数组\n\n"
+            "  • FastAPI 服务已启动并监听在 https://cdk46kb-backend.onrender.com\n"
+            "  • GET https://cdk46kb-backend.onrender.com/api/organic/elements 能返回 { \"elements\": […] }\n"
+            "  • GET https://cdk46kb-backend.onrender.com/api/organic/style 能返回 Cytoscape 样式数组\n\n"
             f"错误详情: {e}"
         )
         st.stop()
@@ -782,7 +782,7 @@ else:
         st.dataframe(df_edges, height=250, use_container_width=True)
 
     # —— 2. 调用 API 拿交互网络（cyjs）和样式 ——
-    base_url = "https://cdk46kb.onrender.com/api/subtype"
+    base_url = "https://cdk46kb-backend.onrender.com/api/subtype"
 
     # 2.1 拿 elements（节点+边）
     try:
