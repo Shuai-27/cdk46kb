@@ -142,8 +142,16 @@ RAW_DIR  = Path("raw_data")
 # --------------------------  1. STATISTICS TAB  -------------------------------
 ################################################################################
 if page.startswith("1."):
-    st.header("📈 Knowledge-Base Statistics | 知识库统计信息")
+    st.header("📈 CDK4/6 Knowledge-Base Statistics | CDK4/6知识库统计信息")
+    st.markdown("""
+    **English:**  
+    Explore the core tabular dataset of the CDK4/6 knowledge base. View and download comprehensive statistics on genes, pathways, diseases, drugs and more; filter entries by code or label; examine overall data distributions at a glance;  
+    Additionally, this module presents a hierarchical mind-map of the CDK4/6 knowledge graph—click any node to filter the table by that code.
 
+    **中文：**  
+    浏览 CDK4/6 知识库的核心统计表格。可查看并下载基因、通路、疾病、药物等条目的详细信息，通过标签或编号快速筛选，并一目了然地把握整体数据分布；  
+    还展示了 CDK4/6 知识图谱的思维导图，点击任意节点即可在表格中筛选出对应编号的条目。
+    """)
     # 数据表格
     csv_fp = DATA_DIR / "stats" / "cdk4_6_kb.csv"
     df = load_csv(csv_fp)
@@ -203,7 +211,14 @@ if page.startswith("1."):
 ################################################################################
 elif page.startswith("2."):
     st.header("🌐 Global Gene Co-Occurrence Network | 全局基因共现网络")
+    st.markdown("""
+        **English:**  
+        Visualize the complete gene co-occurrence network constructed from the knowledge base. Interact with a full-scale Cytoscape.js map, 
+        explore connectivity patterns, and search across any attribute to build custom subnetworks on the fly.
 
+        **中文：**  
+        该模块展示从知识库构建的全局基因共现网络。以 Cytoscape.js 可视化大图形式呈现，支持任意字段搜索并即时生成子网络，深入挖掘节点间的关联模式。
+        """)
     # —— 1. 先渲染全局大图 (与已有逻辑一致，但不显示图例) ——
     cyjs_fp = DATA_DIR / "network" / "network_full.cyjs"
     if not cyjs_fp.exists():
@@ -503,6 +518,15 @@ elif page.startswith("2."):
 ################################################################################
 elif page.startswith("3."):
     st.header("📊 Centrality Analysis / 中心性分析")
+    st.markdown("""
+    **English:**  
+    Compute and compare multiple centrality metrics (degree, betweenness, closeness, etc.) for all genes. View top-ranked genes via interactive bar charts; download results; inspect overlaps with a Venn diagram to identify key drivers.  
+    Also renders an updated CDK4/6 knowledge-graph mind-map annotated with the top 20 central genes.
+
+    **中文：**  
+    对网络中的基因计算并对比多种中心性指标（度、介数、接近度等）。通过交互式柱状图查看排名靠前的基因，下载指标数据，并用维恩图展示基因重叠情况，识别网络中的关键节点；  
+    还展示了标注了 20 个中心性基因的 CDK4/6 知识图谱思维导图。
+    """)
 
     # 1) 找到 data/centrality 里面所有 CSV
     files = sorted(glob.glob(str(DATA_DIR / "centrality" / "*.csv")))
@@ -566,7 +590,7 @@ elif page.startswith("3."):
         st.pyplot(fig)
 
         common_all = set.intersection(*top_sets.values())
-        st.markdown("**同时出现在所有 4 个指标前 32 的基因 / Common to All 4 Metrics**")
+        st.markdown("**同时出现在所有 4 个指标排名靠前的 20个基因 / Common to All 4 Metrics**")
         st.write("，  ".join(sorted(common_all)) if common_all else "没有完全重合的基因。")
     else:
         st.info("需要正好 4 个 Centrality CSV 文件来绘制 Venn 图，请检查 data/centrality 文件夹 | Need exactly 4 centrality CSVs to draw Venn diagram; please check data/centrality folder.")
@@ -597,6 +621,15 @@ elif page.startswith("3."):
 ################################################################################
 elif page.startswith("4."):
     st.header("🧱 Organic Framework Sub-Network | 有机框架子网络")
+    st.markdown("""
+    **English:**  
+    Display the top 20 genes by centrality rank. For each of these 20 genes, show associated diseases, cell types, signaling pathways, and drugs as drawn from the CDK4/6 knowledge base.  
+    Interactively explore this “organic framework” sub-network with a preset Cytoscape.js layout and rich legend.
+
+    **中文：**  
+    该模块展示前 20 个中心性排名最高的基因，并可视化这 20 个基因在 CDK4/6 知识库中对应的疾病、细胞类型、信号通路和药物相关信息；  
+    以固定布局渲染有机框架子网络，并配有详尽图例，方便交互式探索。
+    """)
 
     # —— 1. 调用 REST API 拿到 elements 和 style ——
     try:
@@ -740,6 +773,21 @@ elif page.startswith("4."):
 ################################################################################
 else:
     st.header("🔬 Breast Cancer Subtype-Specific Networks | 乳腺癌亚型网络")
+    st.markdown("""
+    **English:**  
+    Generate gene relationship networks for breast cancer subtypes:  
+    - **Luminal B1 Original**: the original co-occurrence network.  
+    - **Luminal B1 Augmented**: inferred network using IKGC substructure reasoning.  
+    - **TNBC Original**: original Triple-negative Breast Cancer network.  
+    - **TNBC Augmented**: IKGC-inferred augmentation of TNBC network.
+
+    **中文：**  
+    该模块生成乳腺癌亚型的基因关系网络：  
+    - **Luminal B1 原始图**：基于CDK4/6知识库的基因绘制Luminal B1 原始基因共现网络。  
+    - **Luminal B1 推测图**：使用 IKGC 推理得出Luminal B1 可能存在的基因网络。  
+    - **TNBC 原始图**：基于CDK4/6知识库三阴性乳腺癌的基因共现网络。  
+    - **TNBC 推测图**：使用 IKGC 推理得出TNBC 可能存在的基因网络。
+    """)
 
     choice = st.selectbox(
         "Choose subtype | 选择亚型",
@@ -823,18 +871,132 @@ else:
         st.error("❌ 从 API 返回的 style 不是列表，无法插入 universal_size。")
         st.stop()
 
-    # —— 3. 渲染 Cytoscape.js ——
+        # —— 3. 根据 Original / Augmented 选择不同的图例 HTML ——
+    is_augmented = "Augmented" in eng_part
+
+    if is_augmented:
+        # 推测图：4 项图例
+        legend_html = """
+          <div style="
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              background: rgba(255, 255, 255, 0.9);
+              padding: 6px;
+              border-radius: 5px;
+              font-size: 12px;
+              box-shadow: 0 0 4px rgba(0,0,0,0.15);
+          ">
+            <strong>Legend (Augmented) | 图例（推测）</strong>
+            <div style="margin-top:5px;">
+              <!-- 原始节点：黄色圆 -->
+              <div style="display:flex; align-items:center; margin-bottom:4px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background: yellow;
+                    border-radius:50%;
+                    margin-right:6px;
+                "></span>
+                Original Node | 原始节点
+              </div>
+              <!-- 原始关系：黑色直线 -->
+              <div style="display:flex; align-items:center; margin-bottom:4px;">
+                <span style="
+                    display:inline-block;
+                    width:20px; height:2px;
+                    background: black;
+                    margin-right:6px;
+                "></span>
+                Original Edge | 原始关系
+              </div>
+              <!-- 推测节点：蓝色圆 (#89D0F5) -->
+              <div style="display:flex; align-items:center; margin-bottom:4px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background: #89D0F5;
+                    border-radius:50%;
+                    margin-right:6px;
+                "></span>
+                Augmented Node | 推测节点
+              </div>
+              <!-- 推测关系：橙色虚线 (#FE9929) -->
+              <div style="display:flex; align-items:center;">
+                <span style="
+                    display:inline-block;
+                    width:20px; height:2px;
+                    border-bottom:2px dashed #FE9929;
+                    margin-right:6px;
+                "></span>
+                Augmented Edge | 推测关系
+              </div>
+            </div>
+          </div>
+          """
+    else:
+        # 原始图：仅 2 项图例
+        legend_html = """
+          <div style="
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              background: rgba(255, 255, 255, 0.9);
+              padding: 6px;
+              border-radius: 5px;
+              font-size: 12px;
+              box-shadow: 0 0 4px rgba(0,0,0,0.15);
+          ">
+            <strong>Legend (Original) | 图例（原始）</strong>
+            <div style="margin-top:5px;">
+              <!-- 原始节点：黄色圆 -->
+              <div style="display:flex; align-items:center; margin-bottom:4px;">
+                <span style="
+                    display:inline-block;
+                    width:10px; height:10px;
+                    background: yellow;
+                    border-radius:50%;
+                    margin-right:6px;
+                "></span>
+                Original Node | 原始节点
+              </div>
+              <!-- 原始关系：黑色直线 -->
+              <div style="display:flex; align-items:center;">
+                <span style="
+                    display:inline-block;
+                    width:20px; height:2px;
+                    background: black;
+                    margin-right:6px;
+                "></span>
+                Original Edge | 原始关系
+              </div>
+            </div>
+          </div>
+          """
+
+    # —— 4. 渲染 Cytoscape.js 并注入 legend ——
     html4 = f"""
-    <div id='cy_sub' style='width:100%; height:75vh; border:1px solid #e0e0e0;'></div>
-    <script src='https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js'></script>
-    <script>
-      var cy = cytoscape({{
-        container: document.getElementById('cy_sub'),
-        elements: {json.dumps(elements)},
-        style:    {json.dumps(style_list)},
-        layout:   {{ name: 'circle', fit: true }},
-        wheelSensitivity: 0.2
-      }});
-    </script>
-    """
+      <!-- 父容器：relative 定位 -->
+      <div style="position: relative; width:100%; height:75vh; border:1px solid #e0e0e0;">
+
+        <!-- Cytoscape 画布 -->
+        <div id='cy_sub' style='position:absolute; top:0; left:0; width:100%; height:100%;'></div>
+
+        <!-- 动态图例 -->
+        {legend_html}
+
+      </div>
+
+      <!-- 引入 Cytoscape.js 并初始化 -->
+      <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+      <script>
+        var cy = cytoscape({{
+          container: document.getElementById('cy_sub'),
+          elements: {json.dumps(elements)},
+          style:    {json.dumps(style_list)},
+          layout:   {{ name: 'circle', fit: true }},
+          wheelSensitivity: 0.2
+        }});
+      </script>
+      """
     components.html(html4, height=760, scrolling=True)
