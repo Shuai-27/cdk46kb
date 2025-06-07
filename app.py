@@ -601,21 +601,21 @@ elif page.startswith("4."):
     # —— 1. 调用 REST API 拿到 elements 和 style ——
     try:
         # 读取节点/边列表数据
-        resp_elems = requests.get("https://cdk46kb-backend.onrender.com/api/organic/elements")
+        resp_elems = requests.get("https://cdk46kb.onrender.com/api/organic/elements")
         resp_elems.raise_for_status()
         data_elems = resp_elems.json()
         cy_elems = data_elems.get("elements", [])
 
         # 读取样式配置
-        resp_style = requests.get("https://cdk46kb-backend.onrender.com/api/organic/style")
+        resp_style = requests.get("https://cdk46kb.onrender.com/api/organic/style")
         resp_style.raise_for_status()
         style_all = resp_style.json()
     except Exception as e:
         st.warning(
             "❗ 无法从 API 获取 Organic Framework 数据，请确认：\n"
-            "  • FastAPI 服务已启动并监听在 https://cdk46kb-backend.onrender.com\n"
-            "  • GET https://cdk46kb-backend.onrender.com/api/organic/elements 能返回 { \"elements\": […] }\n"
-            "  • GET https://cdk46kb-backend.onrender.com/api/organic/style 能返回 Cytoscape 样式数组\n\n"
+            "  • FastAPI 服务已启动并监听在 https://cdk46kb.onrender.com\n"
+            "  • GET https://cdk46kb.onrender.com/api/organic/elements 能返回 { \"elements\": […] }\n"
+            "  • GET https://cdk46kb.onrender.com/api/organic/style 能返回 Cytoscape 样式数组\n\n"
             f"错误详情: {e}"
         )
         st.stop()
@@ -642,7 +642,7 @@ elif page.startswith("4."):
     else:
         style_cfg = style_all
 
-    # —— 4. 渲染 Cytoscape（带与子网相同的图例） ——
+    # —— 4. 渲染 Cytoscape（有图例，复用与子网“匹配项”相同的图例） ——
     html = f"""
     <!-- 父容器，relative 定位 -->
     <div style="position: relative; width:100%; height:75vh; border:1px solid #e0e0e0;">
@@ -650,7 +650,7 @@ elif page.startswith("4."):
       <!-- Cytoscape 主容器 -->
       <div id='cyf' style="position:absolute; top:0; left:0; width:100%; height:100%;"></div>
 
-      <!-- 右上角图例，复用子网“匹配项”中的样式 -->
+      <!-- 右上角图例 -->
       <div style="
             position: absolute;
             top: 10px;
@@ -667,51 +667,20 @@ elif page.startswith("4."):
             <span style="
                 display:inline-block;
                 width:10px; height:10px;
-                background:#FFFFCC;
+                background:#BBBBBB;
                 border-radius:50%;
                 margin-right:5px;
             "></span>
-            Gene Symbol
-          </div>
-          <div style="display:flex; align-items:center; margin-bottom:3px;">
-            <span style="
-                display:inline-block;
-                width:10px; height:10px;
-                background:#EC7014;
-                transform: rotate(45deg);
-                margin-right:5px;
-            "></span>
-            Cell type
-          </div>
-          <div style="display:flex; align-items:center; margin-bottom:3px;">
-            <span style="
-                display:inline-block;
-                width:10px; height:6px;
-                background:#8C6BB1;
-                border-radius:3px;
-                margin-right:5px;
-            "></span>
-            Disease
-          </div>
-          <div style="display:flex; align-items:center; margin-bottom:3px;">
-            <span style="
-                display:inline-block;
-                width:10px; height:10px;
-                background:#41AB5D;
-                margin-right:5px;
-            "></span>
-            Drugs
+            Organic Node
           </div>
           <div style="display:flex; align-items:center;">
             <span style="
                 display:inline-block;
-                width:0; height:0;
-                border-left:5px solid transparent;
-                border-right:5px solid transparent;
-                border-bottom:10px solid #4EB3D3;
+                width:2px; height:10px;
+                background:#CCCCCC;
                 margin-right:5px;
             "></span>
-            Pathway
+            Organic Edge
           </div>
         </div>
       </div>
@@ -782,7 +751,7 @@ else:
         st.dataframe(df_edges, height=250, use_container_width=True)
 
     # —— 2. 调用 API 拿交互网络（cyjs）和样式 ——
-    base_url = "https://cdk46kb-backend.onrender.com/api/subtype"
+    base_url = "https://cdk46kb.onrender.com/api/subtype"
 
     # 2.1 拿 elements（节点+边）
     try:
