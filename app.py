@@ -145,11 +145,13 @@ if page.startswith("1."):
     st.header("📈 CDK4/6 Knowledge-Base Statistics | CDK4/6知识库统计信息")
     st.markdown("""
     **English:**  
+    The CDK4/6 Knowledge Base (CDK46KB) is an online interactive resource that systematically integrates core entities such as genes, signaling pathways, diseases, drugs, and cell types based on 2,164 literatures containing high-value information related to CDK4/6.
     Explore the core tabular dataset of the CDK4/6 knowledge base. View and download comprehensive statistics on genes, pathways, diseases, drugs and more; filter entries by code or label; examine overall data distributions at a glance;  
     Additionally, this module presents a hierarchical mind-map of the CDK4/6 knowledge graph—click any node to filter the table by that code.
 
     **中文：**  
-    浏览 CDK4/6 知识库的核心统计表格。可查看并下载基因、通路、疾病、药物等条目的详细信息，通过标签或编号快速筛选，并一目了然地把握整体数据分布；  
+    CDK4/6知识库（CDK46KB）是一个基于2 164篇含有CDK4/6有关高价值信息的文献而系统整合基因、信号通路、疾病、药物和细胞类型等核心实体的在线交互式资源浏览 CDK4/6 知识库的核心统计表格。
+    可查看并下载基因、通路、疾病、药物等条目的详细信息，通过标签或编号快速筛选，并一目了然地把握整体数据分布；
     还展示了 CDK4/6 知识图谱的思维导图，点击任意节点即可在表格中筛选出对应编号的条目。
     """)
     # 数据表格
